@@ -1,6 +1,12 @@
 # Livrable : 
 Script python permettant d’extraire automatiquement et consolider le jeu de données de cours de matières premières stratégiques (acier, bois, pétrole, cuivre, aluminium, matières plastiques et polymères) pour le groupe Algeco ainsi qu’une analyse des corrélations avec les prix d’achats aux fournisseurs.
 
+# Prélude :
+
+Pour créer l'environnement conda, nommé `projet_info_06_2022`:
+
+    conda env create -f environment.yml
+
 **Structure du jeu de données :**
 
 |Matières premières| Mois (Date)| Pays|Cours (Prix & devise)|Taux de change|Prix (€)|Taux de variation|
