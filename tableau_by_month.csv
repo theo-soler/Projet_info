@@ -1,97 +1,697 @@
 ,Month/Year,variable,value
-0,01/20,Brent (EUR/barrel),56.6
-1,01/20,USD/EUROS,0.88
-2,01/20,aluminium (EUR),1521.41
-3,01/20,beams EUR/ton,717.91
-4,01/20,coils EUR/ton,816.32
-5,01/20,copper,6529.06
-6,01/20,fuel all EUR/L,1.23
-7,01/20,fuel fr EUR/L,1.11
-8,02/20,Brent (EUR/barrel),59.77
-9,02/20,USD/EUROS,0.88
-10,02/20,aluminium (EUR),1601.07
-11,02/20,beams EUR/ton,733.6
-12,02/20,coils EUR/ton,847.4
-13,02/20,copper,6720.65
-14,02/20,fuel all EUR/L,1.25
-15,02/20,fuel fr EUR/L,1.12
-16,03/20,Brent (EUR/barrel),60.33
-17,03/20,USD/EUROS,0.89
-18,03/20,aluminium (EUR),1649.51
-19,03/20,beams EUR/ton,773.94
-20,03/20,coils EUR/ton,912.34
-21,03/20,copper,6728.92
-22,03/20,fuel all EUR/L,1.3
-23,03/20,fuel fr EUR/L,1.14
-24,04/20,Brent (EUR/barrel),56.85
-25,04/20,USD/EUROS,0.89
-26,04/20,aluminium (EUR),1573.99
-27,04/20,beams EUR/ton,795.0
-28,04/20,coils EUR/ton,961.55
-29,04/20,copper,6659.63
-30,04/20,fuel all EUR/L,1.27
-31,04/20,fuel fr EUR/L,1.12
-32,05/20,Brent (EUR/barrel),62.3
-33,05/20,USD/EUROS,0.89
-34,05/20,aluminium (EUR),1516.29
-35,05/20,beams EUR/ton,836.69
-36,05/20,coils EUR/ton,975.61
-37,05/20,copper,6743.33
-38,05/20,fuel all EUR/L,1.31
-39,05/20,fuel fr EUR/L,1.16
-40,06/20,Brent (EUR/barrel),48.33
-41,06/20,USD/EUROS,0.89
-42,06/20,aluminium (EUR),1378.69
-43,06/20,beams EUR/ton,623.18
-44,06/20,coils EUR/ton,733.93
-45,06/20,copper,5934.69
-46,06/20,fuel all EUR/L,1.21
-47,06/20,fuel fr EUR/L,1.05
-48,07/20,Brent (EUR/barrel),50.81
-49,07/20,USD/EUROS,0.88
-50,07/20,aluminium (EUR),1400.68
-51,07/20,beams EUR/ton,612.97
-52,07/20,coils EUR/ton,742.77
-53,07/20,copper,6018.19
-54,07/20,fuel all EUR/L,1.19
-55,07/20,fuel fr EUR/L,1.05
-56,08/20,Brent (EUR/barrel),50.28
-57,08/20,USD/EUROS,0.87
-58,08/20,aluminium (EUR),1410.11
-59,08/20,beams EUR/ton,629.0
-60,08/20,coils EUR/ton,771.36
-61,08/20,copper,6069.9
-62,08/20,fuel all EUR/L,1.18
-63,08/20,fuel fr EUR/L,1.05
-64,09/20,Brent (EUR/barrel),53.9
-65,09/20,USD/EUROS,0.87
-66,09/20,aluminium (EUR),1464.46
-67,09/20,beams EUR/ton,679.89
-68,09/20,coils EUR/ton,848.85
-69,09/20,copper,6285.64
-70,09/20,fuel all EUR/L,1.2
-71,09/20,fuel fr EUR/L,1.06
-72,10/20,Brent (EUR/barrel),56.11
-73,10/20,USD/EUROS,0.88
-74,10/20,aluminium (EUR),1491.74
-75,10/20,beams EUR/ton,668.58
-76,10/20,coils EUR/ton,819.39
-77,10/20,copper,6324.35
-78,10/20,fuel all EUR/L,
-79,10/20,fuel fr EUR/L,1.09
-80,11/20,Brent (EUR/barrel),55.08
-81,11/20,USD/EUROS,0.89
-82,11/20,aluminium (EUR),1504.21
-83,11/20,beams EUR/ton,676.91
-84,11/20,coils EUR/ton,815.28
-85,11/20,copper,6539.6
-86,11/20,fuel all EUR/L,1.25
-87,11/20,fuel fr EUR/L,1.09
-88,12/20,Brent (EUR/barrel),54.55
-89,12/20,USD/EUROS,0.89
-90,12/20,aluminium (EUR),1529.17
-91,12/20,beams EUR/ton,687.25
-92,12/20,coils EUR/ton,824.7
-93,12/20,copper,6678.29
-94,12/20,fuel all EUR/L,1.24
-95,12/20,fuel fr EUR/L,1.09
+0,01/16,Brent (EUR/barrel),
+1,01/16,USD/EUROS,0.92
+2,01/16,aluminium (EUR),1516.07
+3,01/16,beams EUR/ton,
+4,01/16,coils EUR/ton,
+5,01/16,copper,4460.25
+6,01/16,fuel all EUR/L,1.0
+7,01/16,fuel fr EUR/L,0.85
+8,01/17,Brent (EUR/barrel),
+9,01/17,USD/EUROS,0.94
+10,01/17,aluminium (EUR),1524.32
+11,01/17,beams EUR/ton,
+12,01/17,coils EUR/ton,
+13,01/17,copper,5782.99
+14,01/17,fuel all EUR/L,1.2
+15,01/17,fuel fr EUR/L,1.06
+16,01/18,Brent (EUR/barrel),56.93
+17,01/18,USD/EUROS,0.82
+18,01/18,aluminium (EUR),1514.35
+19,01/18,beams EUR/ton,658.0
+20,01/18,coils EUR/ton,737.0
+21,01/18,copper,7215.29
+22,01/18,fuel all EUR/L,1.21
+23,01/18,fuel fr EUR/L,1.16
+24,01/19,Brent (EUR/barrel),51.68
+25,01/19,USD/EUROS,0.88
+26,01/19,aluminium (EUR),1322.6
+27,01/19,beams EUR/ton,647.0
+28,01/19,coils EUR/ton,712.0
+29,01/19,copper,5991.62
+30,01/19,fuel all EUR/L,1.23
+31,01/19,fuel fr EUR/L,1.17
+32,01/20,Brent (EUR/barrel),57.54
+33,01/20,USD/EUROS,0.9
+34,01/20,aluminium (EUR),1254.78
+35,01/20,beams EUR/ton,570.0
+36,01/20,coils EUR/ton,655.0
+37,01/20,copper,6128.69
+38,01/20,fuel all EUR/L,1.3
+39,01/20,fuel fr EUR/L,1.23
+40,01/21,Brent (EUR/barrel),44.81
+41,01/21,USD/EUROS,0.82
+42,01/21,aluminium (EUR),1574.33
+43,01/21,beams EUR/ton,737.0
+44,01/21,coils EUR/ton,890.0
+45,01/21,copper,7907.4
+46,01/21,fuel all EUR/L,1.24
+47,01/21,fuel fr EUR/L,1.08
+48,01/22,Brent (EUR/barrel),76.17
+49,01/22,USD/EUROS,0.88
+50,01/22,aluminium (EUR),2089.32
+51,01/22,beams EUR/ton,1049.0
+52,01/22,coils EUR/ton,1170.0
+53,01/22,copper,9567.4
+54,01/22,fuel all EUR/L,1.6
+55,01/22,fuel fr EUR/L,1.36
+56,02/16,Brent (EUR/barrel),
+57,02/16,USD/EUROS,0.9
+58,02/16,aluminium (EUR),1478.72
+59,02/16,beams EUR/ton,
+60,02/16,coils EUR/ton,
+61,02/16,copper,4583.46
+62,02/16,fuel all EUR/L,0.99
+63,02/16,fuel fr EUR/L,0.85
+64,02/17,Brent (EUR/barrel),
+65,02/17,USD/EUROS,0.94
+66,02/17,aluminium (EUR),1564.53
+67,02/17,beams EUR/ton,
+68,02/17,coils EUR/ton,
+69,02/17,copper,5971.41
+70,02/17,fuel all EUR/L,1.2
+71,02/17,fuel fr EUR/L,1.05
+72,02/18,Brent (EUR/barrel),52.92
+73,02/18,USD/EUROS,0.81
+74,02/18,aluminium (EUR),1498.58
+75,02/18,beams EUR/ton,663.0
+76,02/18,coils EUR/ton,761.0
+77,02/18,copper,7147.94
+78,02/18,fuel all EUR/L,1.18
+79,02/18,fuel fr EUR/L,1.15
+80,02/19,Brent (EUR/barrel),56.37
+81,02/19,USD/EUROS,0.88
+82,02/19,aluminium (EUR),1380.85
+83,02/19,beams EUR/ton,641.0
+84,02/19,coils EUR/ton,698.0
+85,02/19,copper,6317.08
+86,02/19,fuel all EUR/L,1.25
+87,02/19,fuel fr EUR/L,1.19
+88,02/20,Brent (EUR/barrel),51.33
+89,02/20,USD/EUROS,0.92
+90,02/20,aluminium (EUR),1268.47
+91,02/20,beams EUR/ton,571.0
+92,02/20,coils EUR/ton,673.0
+93,02/20,copper,5774.08
+94,02/20,fuel all EUR/L,1.24
+95,02/20,fuel fr EUR/L,1.17
+96,02/21,Brent (EUR/barrel),51.71
+97,02/21,USD/EUROS,0.83
+98,02/21,aluminium (EUR),1731.37
+99,02/21,beams EUR/ton,740.0
+100,02/21,coils EUR/ton,932.0
+101,02/21,copper,8278.69
+102,02/21,fuel all EUR/L,1.28
+103,02/21,fuel fr EUR/L,1.12
+104,02/22,Brent (EUR/barrel),85.51
+105,02/22,USD/EUROS,0.88
+106,02/22,aluminium (EUR),2312.02
+107,02/22,beams EUR/ton,1053.0
+108,02/22,coils EUR/ton,1173.0
+109,02/22,copper,9693.52
+110,02/22,fuel all EUR/L,1.67
+111,02/22,fuel fr EUR/L,1.42
+112,03/15,Brent (EUR/barrel),
+113,03/15,USD/EUROS,0.93
+114,03/15,aluminium (EUR),1645.95
+115,03/15,beams EUR/ton,
+116,03/15,coils EUR/ton,
+117,03/15,copper,5885.95
+118,03/15,fuel all EUR/L,1.22
+119,03/15,fuel fr EUR/L,1.01
+120,03/16,Brent (EUR/barrel),
+121,03/16,USD/EUROS,0.9
+122,03/16,aluminium (EUR),1469.39
+123,03/16,beams EUR/ton,
+124,03/16,coils EUR/ton,
+125,03/16,copper,4906.44
+126,03/16,fuel all EUR/L,1.04
+127,03/16,fuel fr EUR/L,0.88
+128,03/17,Brent (EUR/barrel),
+129,03/17,USD/EUROS,0.94
+130,03/17,aluminium (EUR),1616.14
+131,03/17,beams EUR/ton,
+132,03/17,coils EUR/ton,
+133,03/17,copper,5871.61
+134,03/17,fuel all EUR/L,1.18
+135,03/17,fuel fr EUR/L,1.04
+136,03/18,Brent (EUR/barrel),53.57
+137,03/18,USD/EUROS,0.81
+138,03/18,aluminium (EUR),1498.38
+139,03/18,beams EUR/ton,655.0
+140,03/18,coils EUR/ton,768.0
+141,03/18,copper,6937.4
+142,03/18,fuel all EUR/L,1.18
+143,03/18,fuel fr EUR/L,1.14
+144,03/19,Brent (EUR/barrel),58.55
+145,03/19,USD/EUROS,0.88
+146,03/19,aluminium (EUR),1342.07
+147,03/19,beams EUR/ton,646.0
+148,03/19,coils EUR/ton,701.0
+149,03/19,copper,6429.08
+150,03/19,fuel all EUR/L,1.26
+151,03/19,fuel fr EUR/L,1.22
+152,03/20,Brent (EUR/barrel),29.12
+153,03/20,USD/EUROS,0.91
+154,03/20,aluminium (EUR),1181.7
+155,03/20,beams EUR/ton,558.0
+156,03/20,coils EUR/ton,680.0
+157,03/20,copper,5254.53
+158,03/20,fuel all EUR/L,1.16
+159,03/20,fuel fr EUR/L,1.07
+160,03/21,Brent (EUR/barrel),54.66
+161,03/21,USD/EUROS,0.84
+162,03/21,aluminium (EUR),1837.53
+163,03/21,beams EUR/ton,729.0
+164,03/21,coils EUR/ton,966.0
+165,03/21,copper,8833.83
+166,03/21,fuel all EUR/L,1.32
+167,03/21,fuel fr EUR/L,1.15
+168,03/22,Brent (EUR/barrel),104.3
+169,03/22,USD/EUROS,0.91
+170,03/22,aluminium (EUR),2593.97
+171,03/22,beams EUR/ton,1250.0
+172,03/22,coils EUR/ton,1408.0
+173,03/22,copper,10136.19
+174,03/22,fuel all EUR/L,2.14
+175,03/22,fuel fr EUR/L,1.69
+176,04/15,Brent (EUR/barrel),
+177,04/15,USD/EUROS,0.93
+178,04/15,aluminium (EUR),1668.98
+179,04/15,beams EUR/ton,
+180,04/15,coils EUR/ton,
+181,04/15,copper,6018.51
+182,04/15,fuel all EUR/L,1.23
+183,04/15,fuel fr EUR/L,1.0
+184,04/16,Brent (EUR/barrel),
+185,04/16,USD/EUROS,0.88
+186,04/16,aluminium (EUR),1439.1
+187,04/16,beams EUR/ton,
+188,04/16,coils EUR/ton,
+189,04/16,copper,4849.78
+190,04/16,fuel all EUR/L,1.05
+191,04/16,fuel fr EUR/L,0.89
+192,04/17,Brent (EUR/barrel),
+193,04/17,USD/EUROS,0.93
+194,04/17,aluminium (EUR),1599.03
+195,04/17,beams EUR/ton,
+196,04/17,coils EUR/ton,
+197,04/17,copper,5759.51
+198,04/17,fuel all EUR/L,1.18
+199,04/17,fuel fr EUR/L,1.04
+200,04/18,Brent (EUR/barrel),58.67
+201,04/18,USD/EUROS,0.82
+202,04/18,aluminium (EUR),1546.67
+203,04/18,beams EUR/ton,655.0
+204,04/18,coils EUR/ton,781.0
+205,04/18,copper,7012.36
+206,04/18,fuel all EUR/L,1.21
+207,04/18,fuel fr EUR/L,1.17
+208,04/19,Brent (EUR/barrel),63.39
+209,04/19,USD/EUROS,0.89
+210,04/19,aluminium (EUR),1289.1
+211,04/19,beams EUR/ton,644.0
+212,04/19,coils EUR/ton,699.0
+213,04/19,copper,6487.05
+214,04/19,fuel all EUR/L,1.27
+215,04/19,fuel fr EUR/L,1.22
+216,04/20,Brent (EUR/barrel),16.77
+217,04/20,USD/EUROS,0.92
+218,04/20,aluminium (EUR),1107.05
+219,04/20,beams EUR/ton,559.0
+220,04/20,coils EUR/ton,683.0
+221,04/20,copper,5152.1
+222,04/20,fuel all EUR/L,1.08
+223,04/20,fuel fr EUR/L,1.01
+224,04/21,Brent (EUR/barrel),54.0
+225,04/21,USD/EUROS,0.83
+226,04/21,aluminium (EUR),1630.54
+227,04/21,beams EUR/ton,734.0
+228,04/21,coils EUR/ton,1116.0
+229,04/21,copper,9251.18
+230,04/21,fuel all EUR/L,1.31
+231,04/21,fuel fr EUR/L,1.15
+232,04/22,Brent (EUR/barrel),96.6
+233,04/22,USD/EUROS,0.93
+234,04/22,aluminium (EUR),2447.1
+235,04/22,beams EUR/ton,1458.0
+236,04/22,coils EUR/ton,1614.0
+237,04/22,copper,10186.77
+238,04/22,fuel all EUR/L,2.03
+239,04/22,fuel fr EUR/L,1.69
+240,05/15,Brent (EUR/barrel),
+241,05/15,USD/EUROS,0.9
+242,05/15,aluminium (EUR),1590.04
+243,05/15,beams EUR/ton,
+244,05/15,coils EUR/ton,
+245,05/15,copper,6291.06
+246,05/15,fuel all EUR/L,1.27
+247,05/15,fuel fr EUR/L,1.03
+248,05/16,Brent (EUR/barrel),
+249,05/16,USD/EUROS,0.89
+250,05/16,aluminium (EUR),1422.68
+251,05/16,beams EUR/ton,
+252,05/16,coils EUR/ton,
+253,05/16,copper,4689.14
+254,05/16,fuel all EUR/L,1.1
+255,05/16,fuel fr EUR/L,0.94
+256,05/17,Brent (EUR/barrel),46.06
+257,05/17,USD/EUROS,0.9
+258,05/17,aluminium (EUR),1522.28
+259,05/17,beams EUR/ton,
+260,05/17,coils EUR/ton,
+261,05/17,copper,5681.15
+262,05/17,fuel all EUR/L,1.16
+263,05/17,fuel fr EUR/L,1.01
+264,05/18,Brent (EUR/barrel),65.42
+265,05/18,USD/EUROS,0.85
+266,05/18,aluminium (EUR),1605.92
+267,05/18,beams EUR/ton,650.0
+268,05/18,coils EUR/ton,773.0
+269,05/18,copper,6954.67
+270,05/18,fuel all EUR/L,1.27
+271,05/18,fuel fr EUR/L,1.21
+272,05/19,Brent (EUR/barrel),64.02
+273,05/19,USD/EUROS,0.89
+274,05/19,aluminium (EUR),1232.86
+275,05/19,beams EUR/ton,631.0
+276,05/19,coils EUR/ton,685.0
+277,05/19,copper,6095.75
+278,05/19,fuel all EUR/L,1.3
+279,05/19,fuel fr EUR/L,1.23
+280,05/20,Brent (EUR/barrel),27.72
+281,05/20,USD/EUROS,0.92
+282,05/20,aluminium (EUR),1115.53
+283,05/20,beams EUR/ton,551.0
+284,05/20,coils EUR/ton,660.0
+285,05/20,copper,5366.12
+286,05/20,fuel all EUR/L,1.05
+287,05/20,fuel fr EUR/L,0.97
+288,05/21,Brent (EUR/barrel),56.47
+289,05/21,USD/EUROS,0.82
+290,05/21,aluminium (EUR),1698.5
+291,05/21,beams EUR/ton,796.0
+292,05/21,coils EUR/ton,1271.0
+293,05/21,copper,10080.99
+294,05/21,fuel all EUR/L,1.33
+295,05/21,fuel fr EUR/L,1.16
+296,05/22,Brent (EUR/barrel),104.4
+297,05/22,USD/EUROS,0.94
+298,05/22,aluminium (EUR),1848.66
+299,05/22,beams EUR/ton,1447.0
+300,05/22,coils EUR/ton,1426.0
+301,05/22,copper,9347.76
+302,05/22,fuel all EUR/L,2.04
+303,05/22,fuel fr EUR/L,1.72
+304,06/15,Brent (EUR/barrel),
+305,06/15,USD/EUROS,0.89
+306,06/15,aluminium (EUR),1582.51
+307,06/15,beams EUR/ton,
+308,06/15,coils EUR/ton,
+309,06/15,copper,5883.3
+310,06/15,fuel all EUR/L,1.25
+311,06/15,fuel fr EUR/L,1.01
+312,06/16,Brent (EUR/barrel),
+313,06/16,USD/EUROS,0.89
+314,06/16,aluminium (EUR),1426.24
+315,06/16,beams EUR/ton,
+316,06/16,coils EUR/ton,
+317,06/16,copper,4653.45
+318,06/16,fuel all EUR/L,1.12
+319,06/16,fuel fr EUR/L,0.96
+320,06/17,Brent (EUR/barrel),41.35
+321,06/17,USD/EUROS,0.89
+322,06/17,aluminium (EUR),1455.45
+323,06/17,beams EUR/ton,551.0
+324,06/17,coils EUR/ton,734.0
+325,06/17,copper,5795.33
+326,06/17,fuel all EUR/L,1.13
+327,06/17,fuel fr EUR/L,0.98
+328,06/18,Brent (EUR/barrel),63.6
+329,06/18,USD/EUROS,0.86
+330,06/18,aluminium (EUR),1537.7
+331,06/18,beams EUR/ton,641.0
+332,06/18,coils EUR/ton,763.0
+333,06/18,copper,7029.27
+334,06/18,fuel all EUR/L,1.28
+335,06/18,fuel fr EUR/L,1.22
+336,06/19,Brent (EUR/barrel),56.75
+337,06/19,USD/EUROS,0.89
+338,06/19,aluminium (EUR),1055.17
+339,06/19,beams EUR/ton,614.0
+340,06/19,coils EUR/ton,679.0
+341,06/19,copper,5954.3
+342,06/19,fuel all EUR/L,1.26
+343,06/19,fuel fr EUR/L,1.18
+344,06/20,Brent (EUR/barrel),35.65
+345,06/20,USD/EUROS,0.89
+346,06/20,aluminium (EUR),1074.41
+347,06/20,beams EUR/ton,529.0
+348,06/20,coils EUR/ton,627.0
+349,06/20,copper,5810.99
+350,06/20,fuel all EUR/L,1.08
+351,06/20,fuel fr EUR/L,1.01
+352,06/22,Brent (EUR/barrel),
+353,06/22,USD/EUROS,0.94
+354,06/22,aluminium (EUR),1636.12
+355,06/22,beams EUR/ton,1370.0
+356,06/22,coils EUR/ton,1285.0
+357,06/22,copper,9677.05
+358,06/22,fuel all EUR/L,2.0
+359,06/22,fuel fr EUR/L,
+360,07/15,Brent (EUR/barrel),
+361,07/15,USD/EUROS,0.91
+362,07/15,aluminium (EUR),1578.93
+363,07/15,beams EUR/ton,
+364,07/15,coils EUR/ton,
+365,07/15,copper,5523.64
+366,07/15,fuel all EUR/L,1.21
+367,07/15,fuel fr EUR/L,0.98
+368,07/16,Brent (EUR/barrel),
+369,07/16,USD/EUROS,0.9
+370,07/16,aluminium (EUR),1443.58
+371,07/16,beams EUR/ton,
+372,07/16,coils EUR/ton,
+373,07/16,copper,4912.54
+374,07/16,fuel all EUR/L,1.1
+375,07/16,fuel fr EUR/L,0.93
+376,07/17,Brent (EUR/barrel),41.96
+377,07/17,USD/EUROS,0.87
+378,07/17,aluminium (EUR),1434.21
+379,07/17,beams EUR/ton,555.0
+380,07/17,coils EUR/ton,701.0
+381,07/17,copper,6066.26
+382,07/17,fuel all EUR/L,1.13
+383,07/17,fuel fr EUR/L,0.98
+384,07/18,Brent (EUR/barrel),63.59
+385,07/18,USD/EUROS,0.86
+386,07/18,aluminium (EUR),1514.24
+387,07/18,beams EUR/ton,640.0
+388,07/18,coils EUR/ton,763.0
+389,07/18,copper,6361.28
+390,07/18,fuel all EUR/L,1.27
+391,07/18,fuel fr EUR/L,1.2
+392,07/19,Brent (EUR/barrel),57.17
+393,07/19,USD/EUROS,0.89
+394,07/19,aluminium (EUR),1107.84
+395,07/19,beams EUR/ton,605.0
+396,07/19,coils EUR/ton,677.0
+397,07/19,copper,6007.12
+398,07/19,fuel all EUR/L,1.25
+399,07/19,fuel fr EUR/L,1.18
+400,07/20,Brent (EUR/barrel),37.69
+401,07/20,USD/EUROS,0.87
+402,07/20,aluminium (EUR),1087.91
+403,07/20,beams EUR/ton,520.0
+404,07/20,coils EUR/ton,615.0
+405,07/20,copper,6358.81
+406,07/20,fuel all EUR/L,1.09
+407,07/20,fuel fr EUR/L,1.03
+408,07/21,Brent (EUR/barrel),63.19
+409,07/21,USD/EUROS,0.85
+410,07/21,aluminium (EUR),1882.99
+411,07/21,beams EUR/ton,1017.0
+412,07/21,coils EUR/ton,1384.0
+413,07/21,copper,9637.08
+414,07/21,fuel all EUR/L,1.39
+415,07/21,fuel fr EUR/L,1.2
+416,08/15,Brent (EUR/barrel),
+417,08/15,USD/EUROS,0.9
+418,08/15,aluminium (EUR),1520.51
+419,08/15,beams EUR/ton,
+420,08/15,coils EUR/ton,
+421,08/15,copper,5166.59
+422,08/15,fuel all EUR/L,1.16
+423,08/15,fuel fr EUR/L,0.93
+424,08/16,Brent (EUR/barrel),
+425,08/16,USD/EUROS,0.89
+426,08/16,aluminium (EUR),1448.42
+427,08/16,beams EUR/ton,
+428,08/16,coils EUR/ton,
+429,08/16,copper,4793.01
+430,08/16,fuel all EUR/L,1.09
+431,08/16,fuel fr EUR/L,0.92
+432,08/17,Brent (EUR/barrel),43.79
+433,08/17,USD/EUROS,0.85
+434,08/17,aluminium (EUR),1482.69
+435,08/17,beams EUR/ton,553.0
+436,08/17,coils EUR/ton,699.0
+437,08/17,copper,6576.99
+438,08/17,fuel all EUR/L,1.14
+439,08/17,fuel fr EUR/L,1.0
+440,08/18,Brent (EUR/barrel),62.4
+441,08/18,USD/EUROS,0.87
+442,08/18,aluminium (EUR),1443.12
+443,08/18,beams EUR/ton,639.0
+444,08/18,coils EUR/ton,763.0
+445,08/18,copper,6155.2
+446,08/18,fuel all EUR/L,1.29
+447,08/18,fuel fr EUR/L,1.21
+448,08/19,Brent (EUR/barrel),53.13
+449,08/19,USD/EUROS,0.9
+450,08/19,aluminium (EUR),1074.24
+451,08/19,beams EUR/ton,594.0
+452,08/19,coils EUR/ton,667.0
+453,08/19,copper,5794.86
+454,08/19,fuel all EUR/L,1.24
+455,08/19,fuel fr EUR/L,1.18
+456,08/20,Brent (EUR/barrel),37.88
+457,08/20,USD/EUROS,0.85
+458,08/20,aluminium (EUR),1126.62
+459,08/20,beams EUR/ton,524.0
+460,08/20,coils EUR/ton,626.0
+461,08/20,copper,6500.01
+462,08/20,fuel all EUR/L,1.08
+463,08/20,fuel fr EUR/L,1.03
+464,08/21,Brent (EUR/barrel),59.68
+465,08/21,USD/EUROS,0.85
+466,08/21,aluminium (EUR),1928.24
+467,08/21,beams EUR/ton,1029.0
+468,08/21,coils EUR/ton,1391.0
+469,08/21,copper,9260.19
+470,08/21,fuel all EUR/L,1.39
+471,08/21,fuel fr EUR/L,1.19
+472,09/15,Brent (EUR/barrel),
+473,09/15,USD/EUROS,0.89
+474,09/15,aluminium (EUR),1514.5
+475,09/15,beams EUR/ton,
+476,09/15,coils EUR/ton,
+477,09/15,copper,5202.07
+478,09/15,fuel all EUR/L,1.15
+479,09/15,fuel fr EUR/L,0.92
+480,09/16,Brent (EUR/barrel),
+481,09/16,USD/EUROS,0.89
+482,09/16,aluminium (EUR),1447.38
+483,09/16,beams EUR/ton,
+484,09/16,coils EUR/ton,
+485,09/16,copper,4786.7
+486,09/16,fuel all EUR/L,1.11
+487,09/16,fuel fr EUR/L,0.93
+488,09/17,Brent (EUR/barrel),47.46
+489,09/17,USD/EUROS,0.84
+490,09/17,aluminium (EUR),1505.9
+491,09/17,beams EUR/ton,597.0
+492,09/17,coils EUR/ton,724.0
+493,09/17,copper,6689.25
+494,09/17,fuel all EUR/L,1.17
+495,09/17,fuel fr EUR/L,1.02
+496,09/18,Brent (EUR/barrel),67.98
+497,09/18,USD/EUROS,0.86
+498,09/18,aluminium (EUR),1330.52
+499,09/18,beams EUR/ton,652.0
+500,09/18,coils EUR/ton,774.0
+501,09/18,copper,6094.55
+502,09/18,fuel all EUR/L,1.33
+503,09/18,fuel fr EUR/L,1.23
+504,09/19,Brent (EUR/barrel),57.15
+505,09/19,USD/EUROS,0.91
+506,09/19,aluminium (EUR),1066.21
+507,09/19,beams EUR/ton,588.0
+508,09/19,coils EUR/ton,666.0
+509,09/19,copper,5822.41
+510,09/19,fuel all EUR/L,1.26
+511,09/19,fuel fr EUR/L,1.2
+512,09/20,Brent (EUR/barrel),34.94
+513,09/20,USD/EUROS,0.85
+514,09/20,aluminium (EUR),1262.98
+515,09/20,beams EUR/ton,535.0
+516,09/20,coils EUR/ton,663.0
+517,09/20,copper,6676.2
+518,09/20,fuel all EUR/L,1.05
+519,09/20,fuel fr EUR/L,1.0
+520,09/21,Brent (EUR/barrel),63.52
+521,09/21,USD/EUROS,0.85
+522,09/21,aluminium (EUR),2076.48
+523,09/21,beams EUR/ton,1009.0
+524,09/21,coils EUR/ton,1383.0
+525,09/21,copper,9245.5
+526,09/21,fuel all EUR/L,1.41
+527,09/21,fuel fr EUR/L,1.21
+528,10/15,Brent (EUR/barrel),
+529,10/15,USD/EUROS,0.89
+530,10/15,aluminium (EUR),1495.34
+531,10/15,beams EUR/ton,
+532,10/15,coils EUR/ton,
+533,10/15,copper,5178.49
+534,10/15,fuel all EUR/L,
+535,10/15,fuel fr EUR/L,0.92
+536,10/16,Brent (EUR/barrel),
+537,10/16,USD/EUROS,0.91
+538,10/16,aluminium (EUR),1459.71
+539,10/16,beams EUR/ton,
+540,10/16,coils EUR/ton,
+541,10/16,copper,4789.51
+542,10/16,fuel all EUR/L,
+543,10/16,fuel fr EUR/L,0.97
+544,10/17,Brent (EUR/barrel),48.89
+545,10/17,USD/EUROS,0.85
+546,10/17,aluminium (EUR),1572.08
+547,10/17,beams EUR/ton,623.0
+548,10/17,coils EUR/ton,729.0
+549,10/17,copper,6909.4
+550,10/17,fuel all EUR/L,
+551,10/17,fuel fr EUR/L,1.03
+552,10/18,Brent (EUR/barrel),70.64
+553,10/18,USD/EUROS,0.87
+554,10/18,aluminium (EUR),1278.59
+555,10/18,beams EUR/ton,659.0
+556,10/18,coils EUR/ton,760.0
+557,10/18,copper,6208.31
+558,10/18,fuel all EUR/L,
+559,10/18,fuel fr EUR/L,1.27
+560,10/19,Brent (EUR/barrel),53.88
+561,10/19,USD/EUROS,0.91
+562,10/19,aluminium (EUR),1087.17
+563,10/19,beams EUR/ton,571.0
+564,10/19,coils EUR/ton,653.0
+565,10/19,copper,5841.31
+566,10/19,fuel all EUR/L,
+567,10/19,fuel fr EUR/L,1.2
+568,10/20,Brent (EUR/barrel),34.28
+569,10/20,USD/EUROS,0.85
+570,10/20,aluminium (EUR),1318.19
+571,10/20,beams EUR/ton,540.0
+572,10/20,coils EUR/ton,687.0
+573,10/20,copper,6725.55
+574,10/20,fuel all EUR/L,
+575,10/20,fuel fr EUR/L,1.0
+576,10/21,Brent (EUR/barrel),72.2
+577,10/21,USD/EUROS,0.86
+578,10/21,aluminium (EUR),2310.11
+579,10/21,beams EUR/ton,986.0
+580,10/21,coils EUR/ton,1334.0
+581,10/21,copper,9500.62
+582,10/21,fuel all EUR/L,
+583,10/21,fuel fr EUR/L,1.28
+584,11/15,Brent (EUR/barrel),
+585,11/15,USD/EUROS,0.93
+586,11/15,aluminium (EUR),1483.73
+587,11/15,beams EUR/ton,
+588,11/15,coils EUR/ton,
+589,11/15,copper,4789.62
+590,11/15,fuel all EUR/L,1.15
+591,11/15,fuel fr EUR/L,0.92
+592,11/16,Brent (EUR/barrel),
+593,11/16,USD/EUROS,0.93
+594,11/16,aluminium (EUR),1488.45
+595,11/16,beams EUR/ton,
+596,11/16,coils EUR/ton,
+597,11/16,copper,5479.44
+598,11/16,fuel all EUR/L,1.13
+599,11/16,fuel fr EUR/L,0.95
+600,11/17,Brent (EUR/barrel),53.38
+601,11/17,USD/EUROS,0.85
+602,11/17,aluminium (EUR),1592.72
+603,11/17,beams EUR/ton,623.0
+604,11/17,coils EUR/ton,727.0
+605,11/17,copper,6919.89
+606,11/17,fuel all EUR/L,1.2
+607,11/17,fuel fr EUR/L,1.06
+608,11/18,Brent (EUR/barrel),57.25
+609,11/18,USD/EUROS,0.88
+610,11/18,aluminium (EUR),1283.14
+611,11/18,beams EUR/ton,657.0
+612,11/18,coils EUR/ton,745.0
+613,11/18,copper,6132.79
+614,11/18,fuel all EUR/L,1.43
+615,11/18,fuel fr EUR/L,1.22
+616,11/19,Brent (EUR/barrel),57.27
+617,11/19,USD/EUROS,0.91
+618,11/19,aluminium (EUR),1127.04
+619,11/19,beams EUR/ton,563.0
+620,11/19,coils EUR/ton,635.0
+621,11/19,copper,5943.39
+622,11/19,fuel all EUR/L,1.26
+623,11/19,fuel fr EUR/L,1.2
+624,11/20,Brent (EUR/barrel),36.09
+625,11/20,USD/EUROS,0.85
+626,11/20,aluminium (EUR),1377.89
+627,11/20,beams EUR/ton,539.0
+628,11/20,coils EUR/ton,713.0
+629,11/20,copper,7066.72
+630,11/20,fuel all EUR/L,1.05
+631,11/20,fuel fr EUR/L,1.01
+632,11/21,Brent (EUR/barrel),71.76
+633,11/21,USD/EUROS,0.87
+634,11/21,aluminium (EUR),2144.53
+635,11/21,beams EUR/ton,999.0
+636,11/21,coils EUR/ton,1251.0
+637,11/21,copper,9472.01
+638,11/21,fuel all EUR/L,1.56
+639,11/21,fuel fr EUR/L,1.3
+640,12/15,Brent (EUR/barrel),
+641,12/15,USD/EUROS,0.92
+642,12/15,aluminium (EUR),1473.13
+643,12/15,beams EUR/ton,
+644,12/15,coils EUR/ton,
+645,12/15,copper,4628.88
+646,12/15,fuel all EUR/L,1.07
+647,12/15,fuel fr EUR/L,0.86
+648,12/16,Brent (EUR/barrel),
+649,12/16,USD/EUROS,0.95
+650,12/16,aluminium (EUR),1514.38
+651,12/16,beams EUR/ton,
+652,12/16,coils EUR/ton,
+653,12/16,copper,5668.5
+654,12/16,fuel all EUR/L,1.19
+655,12/16,fuel fr EUR/L,1.0
+656,12/17,Brent (EUR/barrel),54.37
+657,12/17,USD/EUROS,0.85
+658,12/17,aluminium (EUR),1546.2
+659,12/17,beams EUR/ton,635.0
+660,12/17,coils EUR/ton,726.0
+661,12/17,copper,6935.9
+662,12/17,fuel all EUR/L,1.22
+663,12/17,fuel fr EUR/L,1.07
+664,12/18,Brent (EUR/barrel),50.6
+665,12/18,USD/EUROS,0.88
+666,12/18,aluminium (EUR),1292.53
+667,12/18,beams EUR/ton,653.0
+668,12/18,coils EUR/ton,731.0
+669,12/18,copper,6078.85
+670,12/18,fuel all EUR/L,1.3
+671,12/18,fuel fr EUR/L,1.18
+672,12/19,Brent (EUR/barrel),60.04
+673,12/19,USD/EUROS,0.9
+674,12/19,aluminium (EUR),1218.84
+675,12/19,beams EUR/ton,565.0
+676,12/19,coils EUR/ton,637.0
+677,12/19,copper,6145.59
+678,12/19,fuel all EUR/L,1.27
+679,12/19,fuel fr EUR/L,1.22
+680,12/20,Brent (EUR/barrel),40.94
+681,12/20,USD/EUROS,0.82
+682,12/20,aluminium (EUR),1509.93
+683,12/20,beams EUR/ton,563.0
+684,12/20,coils EUR/ton,777.0
+685,12/20,copper,7753.52
+686,12/20,fuel all EUR/L,1.11
+687,12/20,fuel fr EUR/L,1.05
+688,12/21,Brent (EUR/barrel),65.62
+689,12/21,USD/EUROS,0.88
+690,12/21,aluminium (EUR),2055.86
+691,12/21,beams EUR/ton,981.0
+692,12/21,coils EUR/ton,1190.0
+693,12/21,copper,9343.34
+694,12/21,fuel all EUR/L,1.53
+695,12/21,fuel fr EUR/L,1.27
