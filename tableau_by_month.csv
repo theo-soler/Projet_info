@@ -1,697 +1,697 @@
-,variable,Month/Year,value
-0,Brent (EUR/barrel),01/16,
-1,Brent (EUR/barrel),01/17,
-2,Brent (EUR/barrel),01/18,56.93
-3,Brent (EUR/barrel),01/19,51.68
-4,Brent (EUR/barrel),01/20,57.54
-5,Brent (EUR/barrel),01/21,44.81
-6,Brent (EUR/barrel),01/22,76.17
-7,Brent (EUR/barrel),02/16,
-8,Brent (EUR/barrel),02/17,
-9,Brent (EUR/barrel),02/18,52.92
-10,Brent (EUR/barrel),02/19,56.37
-11,Brent (EUR/barrel),02/20,51.33
-12,Brent (EUR/barrel),02/21,51.71
-13,Brent (EUR/barrel),02/22,85.51
-14,Brent (EUR/barrel),03/15,
-15,Brent (EUR/barrel),03/16,
-16,Brent (EUR/barrel),03/17,
-17,Brent (EUR/barrel),03/18,53.57
-18,Brent (EUR/barrel),03/19,58.55
-19,Brent (EUR/barrel),03/20,29.12
-20,Brent (EUR/barrel),03/21,54.66
-21,Brent (EUR/barrel),03/22,104.3
-22,Brent (EUR/barrel),04/15,
-23,Brent (EUR/barrel),04/16,
-24,Brent (EUR/barrel),04/17,
-25,Brent (EUR/barrel),04/18,58.67
-26,Brent (EUR/barrel),04/19,63.39
-27,Brent (EUR/barrel),04/20,16.77
-28,Brent (EUR/barrel),04/21,54.0
-29,Brent (EUR/barrel),04/22,96.6
-30,Brent (EUR/barrel),05/15,
-31,Brent (EUR/barrel),05/16,
-32,Brent (EUR/barrel),05/17,46.06
-33,Brent (EUR/barrel),05/18,65.42
-34,Brent (EUR/barrel),05/19,64.02
-35,Brent (EUR/barrel),05/20,27.72
-36,Brent (EUR/barrel),05/21,56.47
-37,Brent (EUR/barrel),05/22,104.4
-38,Brent (EUR/barrel),06/15,
-39,Brent (EUR/barrel),06/16,
-40,Brent (EUR/barrel),06/17,41.35
-41,Brent (EUR/barrel),06/18,63.6
-42,Brent (EUR/barrel),06/19,56.75
-43,Brent (EUR/barrel),06/20,35.65
-44,Brent (EUR/barrel),06/22,
-45,Brent (EUR/barrel),07/15,
-46,Brent (EUR/barrel),07/16,
-47,Brent (EUR/barrel),07/17,41.96
-48,Brent (EUR/barrel),07/18,63.59
-49,Brent (EUR/barrel),07/19,57.17
-50,Brent (EUR/barrel),07/20,37.69
-51,Brent (EUR/barrel),07/21,63.19
-52,Brent (EUR/barrel),08/15,
-53,Brent (EUR/barrel),08/16,
-54,Brent (EUR/barrel),08/17,43.79
-55,Brent (EUR/barrel),08/18,62.4
-56,Brent (EUR/barrel),08/19,53.13
-57,Brent (EUR/barrel),08/20,37.88
-58,Brent (EUR/barrel),08/21,59.68
-59,Brent (EUR/barrel),09/15,
-60,Brent (EUR/barrel),09/16,
-61,Brent (EUR/barrel),09/17,47.46
-62,Brent (EUR/barrel),09/18,67.98
-63,Brent (EUR/barrel),09/19,57.15
-64,Brent (EUR/barrel),09/20,34.94
-65,Brent (EUR/barrel),09/21,63.52
-66,Brent (EUR/barrel),10/15,
-67,Brent (EUR/barrel),10/16,
-68,Brent (EUR/barrel),10/17,48.89
-69,Brent (EUR/barrel),10/18,70.64
-70,Brent (EUR/barrel),10/19,53.88
-71,Brent (EUR/barrel),10/20,34.28
-72,Brent (EUR/barrel),10/21,72.2
-73,Brent (EUR/barrel),11/15,
-74,Brent (EUR/barrel),11/16,
-75,Brent (EUR/barrel),11/17,53.38
-76,Brent (EUR/barrel),11/18,57.25
-77,Brent (EUR/barrel),11/19,57.27
-78,Brent (EUR/barrel),11/20,36.09
-79,Brent (EUR/barrel),11/21,71.76
-80,Brent (EUR/barrel),12/15,
-81,Brent (EUR/barrel),12/16,
-82,Brent (EUR/barrel),12/17,54.37
-83,Brent (EUR/barrel),12/18,50.6
-84,Brent (EUR/barrel),12/19,60.04
-85,Brent (EUR/barrel),12/20,40.94
-86,Brent (EUR/barrel),12/21,65.62
-87,USD/EUROS,01/16,0.92
-88,USD/EUROS,01/17,0.94
-89,USD/EUROS,01/18,0.82
-90,USD/EUROS,01/19,0.88
-91,USD/EUROS,01/20,0.9
-92,USD/EUROS,01/21,0.82
-93,USD/EUROS,01/22,0.88
-94,USD/EUROS,02/16,0.9
-95,USD/EUROS,02/17,0.94
-96,USD/EUROS,02/18,0.81
-97,USD/EUROS,02/19,0.88
-98,USD/EUROS,02/20,0.92
-99,USD/EUROS,02/21,0.83
-100,USD/EUROS,02/22,0.88
-101,USD/EUROS,03/15,0.93
-102,USD/EUROS,03/16,0.9
-103,USD/EUROS,03/17,0.94
-104,USD/EUROS,03/18,0.81
-105,USD/EUROS,03/19,0.88
-106,USD/EUROS,03/20,0.91
-107,USD/EUROS,03/21,0.84
-108,USD/EUROS,03/22,0.91
-109,USD/EUROS,04/15,0.93
-110,USD/EUROS,04/16,0.88
-111,USD/EUROS,04/17,0.93
-112,USD/EUROS,04/18,0.82
-113,USD/EUROS,04/19,0.89
-114,USD/EUROS,04/20,0.92
-115,USD/EUROS,04/21,0.83
-116,USD/EUROS,04/22,0.93
-117,USD/EUROS,05/15,0.9
-118,USD/EUROS,05/16,0.89
-119,USD/EUROS,05/17,0.9
-120,USD/EUROS,05/18,0.85
-121,USD/EUROS,05/19,0.89
-122,USD/EUROS,05/20,0.92
-123,USD/EUROS,05/21,0.82
-124,USD/EUROS,05/22,0.94
-125,USD/EUROS,06/15,0.89
-126,USD/EUROS,06/16,0.89
-127,USD/EUROS,06/17,0.89
-128,USD/EUROS,06/18,0.86
-129,USD/EUROS,06/19,0.89
-130,USD/EUROS,06/20,0.89
-131,USD/EUROS,06/22,0.94
-132,USD/EUROS,07/15,0.91
-133,USD/EUROS,07/16,0.9
-134,USD/EUROS,07/17,0.87
-135,USD/EUROS,07/18,0.86
-136,USD/EUROS,07/19,0.89
-137,USD/EUROS,07/20,0.87
-138,USD/EUROS,07/21,0.85
-139,USD/EUROS,08/15,0.9
-140,USD/EUROS,08/16,0.89
-141,USD/EUROS,08/17,0.85
-142,USD/EUROS,08/18,0.87
-143,USD/EUROS,08/19,0.9
-144,USD/EUROS,08/20,0.85
-145,USD/EUROS,08/21,0.85
-146,USD/EUROS,09/15,0.89
-147,USD/EUROS,09/16,0.89
-148,USD/EUROS,09/17,0.84
-149,USD/EUROS,09/18,0.86
-150,USD/EUROS,09/19,0.91
-151,USD/EUROS,09/20,0.85
-152,USD/EUROS,09/21,0.85
-153,USD/EUROS,10/15,0.89
-154,USD/EUROS,10/16,0.91
-155,USD/EUROS,10/17,0.85
-156,USD/EUROS,10/18,0.87
-157,USD/EUROS,10/19,0.91
-158,USD/EUROS,10/20,0.85
-159,USD/EUROS,10/21,0.86
-160,USD/EUROS,11/15,0.93
-161,USD/EUROS,11/16,0.93
-162,USD/EUROS,11/17,0.85
-163,USD/EUROS,11/18,0.88
-164,USD/EUROS,11/19,0.91
-165,USD/EUROS,11/20,0.85
-166,USD/EUROS,11/21,0.87
-167,USD/EUROS,12/15,0.92
-168,USD/EUROS,12/16,0.95
-169,USD/EUROS,12/17,0.85
-170,USD/EUROS,12/18,0.88
-171,USD/EUROS,12/19,0.9
-172,USD/EUROS,12/20,0.82
-173,USD/EUROS,12/21,0.88
-174,aluminium (EUR),01/16,1516.07
-175,aluminium (EUR),01/17,1524.32
-176,aluminium (EUR),01/18,1514.35
-177,aluminium (EUR),01/19,1322.6
-178,aluminium (EUR),01/20,1254.78
-179,aluminium (EUR),01/21,1574.33
-180,aluminium (EUR),01/22,2089.32
-181,aluminium (EUR),02/16,1478.72
-182,aluminium (EUR),02/17,1564.53
-183,aluminium (EUR),02/18,1498.58
-184,aluminium (EUR),02/19,1380.85
-185,aluminium (EUR),02/20,1268.47
-186,aluminium (EUR),02/21,1731.37
-187,aluminium (EUR),02/22,2312.02
-188,aluminium (EUR),03/15,1645.95
-189,aluminium (EUR),03/16,1469.39
-190,aluminium (EUR),03/17,1616.14
-191,aluminium (EUR),03/18,1498.38
-192,aluminium (EUR),03/19,1342.07
-193,aluminium (EUR),03/20,1181.7
-194,aluminium (EUR),03/21,1837.53
-195,aluminium (EUR),03/22,2593.97
-196,aluminium (EUR),04/15,1668.98
-197,aluminium (EUR),04/16,1439.1
-198,aluminium (EUR),04/17,1599.03
-199,aluminium (EUR),04/18,1546.67
-200,aluminium (EUR),04/19,1289.1
-201,aluminium (EUR),04/20,1107.05
-202,aluminium (EUR),04/21,1630.54
-203,aluminium (EUR),04/22,2447.1
-204,aluminium (EUR),05/15,1590.04
-205,aluminium (EUR),05/16,1422.68
-206,aluminium (EUR),05/17,1522.28
-207,aluminium (EUR),05/18,1605.92
-208,aluminium (EUR),05/19,1232.86
-209,aluminium (EUR),05/20,1115.53
-210,aluminium (EUR),05/21,1698.5
-211,aluminium (EUR),05/22,1848.66
-212,aluminium (EUR),06/15,1582.51
-213,aluminium (EUR),06/16,1426.24
-214,aluminium (EUR),06/17,1455.45
-215,aluminium (EUR),06/18,1537.7
-216,aluminium (EUR),06/19,1055.17
-217,aluminium (EUR),06/20,1074.41
-218,aluminium (EUR),06/22,1636.12
-219,aluminium (EUR),07/15,1578.93
-220,aluminium (EUR),07/16,1443.58
-221,aluminium (EUR),07/17,1434.21
-222,aluminium (EUR),07/18,1514.24
-223,aluminium (EUR),07/19,1107.84
-224,aluminium (EUR),07/20,1087.91
-225,aluminium (EUR),07/21,1882.99
-226,aluminium (EUR),08/15,1520.51
-227,aluminium (EUR),08/16,1448.42
-228,aluminium (EUR),08/17,1482.69
-229,aluminium (EUR),08/18,1443.12
-230,aluminium (EUR),08/19,1074.24
-231,aluminium (EUR),08/20,1126.62
-232,aluminium (EUR),08/21,1928.24
-233,aluminium (EUR),09/15,1514.5
-234,aluminium (EUR),09/16,1447.38
-235,aluminium (EUR),09/17,1505.9
-236,aluminium (EUR),09/18,1330.52
-237,aluminium (EUR),09/19,1066.21
-238,aluminium (EUR),09/20,1262.98
-239,aluminium (EUR),09/21,2076.48
-240,aluminium (EUR),10/15,1495.34
-241,aluminium (EUR),10/16,1459.71
-242,aluminium (EUR),10/17,1572.08
-243,aluminium (EUR),10/18,1278.59
-244,aluminium (EUR),10/19,1087.17
-245,aluminium (EUR),10/20,1318.19
-246,aluminium (EUR),10/21,2310.11
-247,aluminium (EUR),11/15,1483.73
-248,aluminium (EUR),11/16,1488.45
-249,aluminium (EUR),11/17,1592.72
-250,aluminium (EUR),11/18,1283.14
-251,aluminium (EUR),11/19,1127.04
-252,aluminium (EUR),11/20,1377.89
-253,aluminium (EUR),11/21,2144.53
-254,aluminium (EUR),12/15,1473.13
-255,aluminium (EUR),12/16,1514.38
-256,aluminium (EUR),12/17,1546.2
-257,aluminium (EUR),12/18,1292.53
-258,aluminium (EUR),12/19,1218.84
-259,aluminium (EUR),12/20,1509.93
-260,aluminium (EUR),12/21,2055.86
-261,beams EUR/ton,01/16,
-262,beams EUR/ton,01/17,
-263,beams EUR/ton,01/18,658.0
-264,beams EUR/ton,01/19,647.0
-265,beams EUR/ton,01/20,570.0
-266,beams EUR/ton,01/21,737.0
-267,beams EUR/ton,01/22,1049.0
-268,beams EUR/ton,02/16,
-269,beams EUR/ton,02/17,
-270,beams EUR/ton,02/18,663.0
-271,beams EUR/ton,02/19,641.0
-272,beams EUR/ton,02/20,571.0
-273,beams EUR/ton,02/21,740.0
-274,beams EUR/ton,02/22,1053.0
-275,beams EUR/ton,03/15,
-276,beams EUR/ton,03/16,
-277,beams EUR/ton,03/17,
-278,beams EUR/ton,03/18,655.0
-279,beams EUR/ton,03/19,646.0
-280,beams EUR/ton,03/20,558.0
-281,beams EUR/ton,03/21,729.0
-282,beams EUR/ton,03/22,1250.0
-283,beams EUR/ton,04/15,
-284,beams EUR/ton,04/16,
-285,beams EUR/ton,04/17,
-286,beams EUR/ton,04/18,655.0
-287,beams EUR/ton,04/19,644.0
-288,beams EUR/ton,04/20,559.0
-289,beams EUR/ton,04/21,734.0
-290,beams EUR/ton,04/22,1458.0
-291,beams EUR/ton,05/15,
-292,beams EUR/ton,05/16,
-293,beams EUR/ton,05/17,
-294,beams EUR/ton,05/18,650.0
-295,beams EUR/ton,05/19,631.0
-296,beams EUR/ton,05/20,551.0
-297,beams EUR/ton,05/21,796.0
-298,beams EUR/ton,05/22,1447.0
-299,beams EUR/ton,06/15,
-300,beams EUR/ton,06/16,
-301,beams EUR/ton,06/17,551.0
-302,beams EUR/ton,06/18,641.0
-303,beams EUR/ton,06/19,614.0
-304,beams EUR/ton,06/20,529.0
-305,beams EUR/ton,06/22,1370.0
-306,beams EUR/ton,07/15,
-307,beams EUR/ton,07/16,
-308,beams EUR/ton,07/17,555.0
-309,beams EUR/ton,07/18,640.0
-310,beams EUR/ton,07/19,605.0
-311,beams EUR/ton,07/20,520.0
-312,beams EUR/ton,07/21,1017.0
-313,beams EUR/ton,08/15,
-314,beams EUR/ton,08/16,
-315,beams EUR/ton,08/17,553.0
-316,beams EUR/ton,08/18,639.0
-317,beams EUR/ton,08/19,594.0
-318,beams EUR/ton,08/20,524.0
-319,beams EUR/ton,08/21,1029.0
-320,beams EUR/ton,09/15,
-321,beams EUR/ton,09/16,
-322,beams EUR/ton,09/17,597.0
-323,beams EUR/ton,09/18,652.0
-324,beams EUR/ton,09/19,588.0
-325,beams EUR/ton,09/20,535.0
-326,beams EUR/ton,09/21,1009.0
-327,beams EUR/ton,10/15,
-328,beams EUR/ton,10/16,
-329,beams EUR/ton,10/17,623.0
-330,beams EUR/ton,10/18,659.0
-331,beams EUR/ton,10/19,571.0
-332,beams EUR/ton,10/20,540.0
-333,beams EUR/ton,10/21,986.0
-334,beams EUR/ton,11/15,
-335,beams EUR/ton,11/16,
-336,beams EUR/ton,11/17,623.0
-337,beams EUR/ton,11/18,657.0
-338,beams EUR/ton,11/19,563.0
-339,beams EUR/ton,11/20,539.0
-340,beams EUR/ton,11/21,999.0
-341,beams EUR/ton,12/15,
-342,beams EUR/ton,12/16,
-343,beams EUR/ton,12/17,635.0
-344,beams EUR/ton,12/18,653.0
-345,beams EUR/ton,12/19,565.0
-346,beams EUR/ton,12/20,563.0
-347,beams EUR/ton,12/21,981.0
-348,coils EUR/ton,01/16,
-349,coils EUR/ton,01/17,
-350,coils EUR/ton,01/18,737.0
-351,coils EUR/ton,01/19,712.0
-352,coils EUR/ton,01/20,655.0
-353,coils EUR/ton,01/21,890.0
-354,coils EUR/ton,01/22,1170.0
-355,coils EUR/ton,02/16,
-356,coils EUR/ton,02/17,
-357,coils EUR/ton,02/18,761.0
-358,coils EUR/ton,02/19,698.0
-359,coils EUR/ton,02/20,673.0
-360,coils EUR/ton,02/21,932.0
-361,coils EUR/ton,02/22,1173.0
-362,coils EUR/ton,03/15,
-363,coils EUR/ton,03/16,
-364,coils EUR/ton,03/17,
-365,coils EUR/ton,03/18,768.0
-366,coils EUR/ton,03/19,701.0
-367,coils EUR/ton,03/20,680.0
-368,coils EUR/ton,03/21,966.0
-369,coils EUR/ton,03/22,1408.0
-370,coils EUR/ton,04/15,
-371,coils EUR/ton,04/16,
-372,coils EUR/ton,04/17,
-373,coils EUR/ton,04/18,781.0
-374,coils EUR/ton,04/19,699.0
-375,coils EUR/ton,04/20,683.0
-376,coils EUR/ton,04/21,1116.0
-377,coils EUR/ton,04/22,1614.0
-378,coils EUR/ton,05/15,
-379,coils EUR/ton,05/16,
-380,coils EUR/ton,05/17,
-381,coils EUR/ton,05/18,773.0
-382,coils EUR/ton,05/19,685.0
-383,coils EUR/ton,05/20,660.0
-384,coils EUR/ton,05/21,1271.0
-385,coils EUR/ton,05/22,1426.0
-386,coils EUR/ton,06/15,
-387,coils EUR/ton,06/16,
-388,coils EUR/ton,06/17,734.0
-389,coils EUR/ton,06/18,763.0
-390,coils EUR/ton,06/19,679.0
-391,coils EUR/ton,06/20,627.0
-392,coils EUR/ton,06/22,1285.0
-393,coils EUR/ton,07/15,
-394,coils EUR/ton,07/16,
-395,coils EUR/ton,07/17,701.0
-396,coils EUR/ton,07/18,763.0
-397,coils EUR/ton,07/19,677.0
-398,coils EUR/ton,07/20,615.0
-399,coils EUR/ton,07/21,1384.0
-400,coils EUR/ton,08/15,
-401,coils EUR/ton,08/16,
-402,coils EUR/ton,08/17,699.0
-403,coils EUR/ton,08/18,763.0
-404,coils EUR/ton,08/19,667.0
-405,coils EUR/ton,08/20,626.0
-406,coils EUR/ton,08/21,1391.0
-407,coils EUR/ton,09/15,
-408,coils EUR/ton,09/16,
-409,coils EUR/ton,09/17,724.0
-410,coils EUR/ton,09/18,774.0
-411,coils EUR/ton,09/19,666.0
-412,coils EUR/ton,09/20,663.0
-413,coils EUR/ton,09/21,1383.0
-414,coils EUR/ton,10/15,
-415,coils EUR/ton,10/16,
-416,coils EUR/ton,10/17,729.0
-417,coils EUR/ton,10/18,760.0
-418,coils EUR/ton,10/19,653.0
-419,coils EUR/ton,10/20,687.0
-420,coils EUR/ton,10/21,1334.0
-421,coils EUR/ton,11/15,
-422,coils EUR/ton,11/16,
-423,coils EUR/ton,11/17,727.0
-424,coils EUR/ton,11/18,745.0
-425,coils EUR/ton,11/19,635.0
-426,coils EUR/ton,11/20,713.0
-427,coils EUR/ton,11/21,1251.0
-428,coils EUR/ton,12/15,
-429,coils EUR/ton,12/16,
-430,coils EUR/ton,12/17,726.0
-431,coils EUR/ton,12/18,731.0
-432,coils EUR/ton,12/19,637.0
-433,coils EUR/ton,12/20,777.0
-434,coils EUR/ton,12/21,1190.0
-435,copper,01/16,4460.25
-436,copper,01/17,5782.99
-437,copper,01/18,7215.29
-438,copper,01/19,5991.62
-439,copper,01/20,6128.69
-440,copper,01/21,7907.4
-441,copper,01/22,9567.4
-442,copper,02/16,4583.46
-443,copper,02/17,5971.41
-444,copper,02/18,7147.94
-445,copper,02/19,6317.08
-446,copper,02/20,5774.08
-447,copper,02/21,8278.69
-448,copper,02/22,9693.52
-449,copper,03/15,5885.95
-450,copper,03/16,4906.44
-451,copper,03/17,5871.61
-452,copper,03/18,6937.4
-453,copper,03/19,6429.08
-454,copper,03/20,5254.53
-455,copper,03/21,8833.83
-456,copper,03/22,10136.19
-457,copper,04/15,6018.51
-458,copper,04/16,4849.78
-459,copper,04/17,5759.51
-460,copper,04/18,7012.36
-461,copper,04/19,6487.05
-462,copper,04/20,5152.1
-463,copper,04/21,9251.18
-464,copper,04/22,10186.77
-465,copper,05/15,6291.06
-466,copper,05/16,4689.14
-467,copper,05/17,5681.15
-468,copper,05/18,6954.67
-469,copper,05/19,6095.75
-470,copper,05/20,5366.12
-471,copper,05/21,10080.99
-472,copper,05/22,9347.76
-473,copper,06/15,5883.3
-474,copper,06/16,4653.45
-475,copper,06/17,5795.33
-476,copper,06/18,7029.27
-477,copper,06/19,5954.3
-478,copper,06/20,5810.99
-479,copper,06/22,9677.05
-480,copper,07/15,5523.64
-481,copper,07/16,4912.54
-482,copper,07/17,6066.26
-483,copper,07/18,6361.28
-484,copper,07/19,6007.12
-485,copper,07/20,6358.81
-486,copper,07/21,9637.08
-487,copper,08/15,5166.59
-488,copper,08/16,4793.01
-489,copper,08/17,6576.99
-490,copper,08/18,6155.2
-491,copper,08/19,5794.86
-492,copper,08/20,6500.01
-493,copper,08/21,9260.19
-494,copper,09/15,5202.07
-495,copper,09/16,4786.7
-496,copper,09/17,6689.25
-497,copper,09/18,6094.55
-498,copper,09/19,5822.41
-499,copper,09/20,6676.2
-500,copper,09/21,9245.5
-501,copper,10/15,5178.49
-502,copper,10/16,4789.51
-503,copper,10/17,6909.4
-504,copper,10/18,6208.31
-505,copper,10/19,5841.31
-506,copper,10/20,6725.55
-507,copper,10/21,9500.62
-508,copper,11/15,4789.62
-509,copper,11/16,5479.44
-510,copper,11/17,6919.89
-511,copper,11/18,6132.79
-512,copper,11/19,5943.39
-513,copper,11/20,7066.72
-514,copper,11/21,9472.01
-515,copper,12/15,4628.88
-516,copper,12/16,5668.5
-517,copper,12/17,6935.9
-518,copper,12/18,6078.85
-519,copper,12/19,6145.59
-520,copper,12/20,7753.52
-521,copper,12/21,9343.34
-522,fuel all EUR/L,01/16,1.0
-523,fuel all EUR/L,01/17,1.2
-524,fuel all EUR/L,01/18,1.21
-525,fuel all EUR/L,01/19,1.23
-526,fuel all EUR/L,01/20,1.3
-527,fuel all EUR/L,01/21,1.24
-528,fuel all EUR/L,01/22,1.6
-529,fuel all EUR/L,02/16,0.99
-530,fuel all EUR/L,02/17,1.2
-531,fuel all EUR/L,02/18,1.18
-532,fuel all EUR/L,02/19,1.25
-533,fuel all EUR/L,02/20,1.24
-534,fuel all EUR/L,02/21,1.28
-535,fuel all EUR/L,02/22,1.67
-536,fuel all EUR/L,03/15,1.22
-537,fuel all EUR/L,03/16,1.04
-538,fuel all EUR/L,03/17,1.18
-539,fuel all EUR/L,03/18,1.18
-540,fuel all EUR/L,03/19,1.26
-541,fuel all EUR/L,03/20,1.16
-542,fuel all EUR/L,03/21,1.32
-543,fuel all EUR/L,03/22,2.14
-544,fuel all EUR/L,04/15,1.23
-545,fuel all EUR/L,04/16,1.05
-546,fuel all EUR/L,04/17,1.18
-547,fuel all EUR/L,04/18,1.21
-548,fuel all EUR/L,04/19,1.27
-549,fuel all EUR/L,04/20,1.08
-550,fuel all EUR/L,04/21,1.31
-551,fuel all EUR/L,04/22,2.03
-552,fuel all EUR/L,05/15,1.27
-553,fuel all EUR/L,05/16,1.1
-554,fuel all EUR/L,05/17,1.16
-555,fuel all EUR/L,05/18,1.27
-556,fuel all EUR/L,05/19,1.3
-557,fuel all EUR/L,05/20,1.05
-558,fuel all EUR/L,05/21,1.33
-559,fuel all EUR/L,05/22,2.04
-560,fuel all EUR/L,06/15,1.25
-561,fuel all EUR/L,06/16,1.12
-562,fuel all EUR/L,06/17,1.13
-563,fuel all EUR/L,06/18,1.28
-564,fuel all EUR/L,06/19,1.26
-565,fuel all EUR/L,06/20,1.08
-566,fuel all EUR/L,06/22,2.0
-567,fuel all EUR/L,07/15,1.21
-568,fuel all EUR/L,07/16,1.1
-569,fuel all EUR/L,07/17,1.13
-570,fuel all EUR/L,07/18,1.27
-571,fuel all EUR/L,07/19,1.25
-572,fuel all EUR/L,07/20,1.09
-573,fuel all EUR/L,07/21,1.39
-574,fuel all EUR/L,08/15,1.16
-575,fuel all EUR/L,08/16,1.09
-576,fuel all EUR/L,08/17,1.14
-577,fuel all EUR/L,08/18,1.29
-578,fuel all EUR/L,08/19,1.24
-579,fuel all EUR/L,08/20,1.08
-580,fuel all EUR/L,08/21,1.39
-581,fuel all EUR/L,09/15,1.15
-582,fuel all EUR/L,09/16,1.11
-583,fuel all EUR/L,09/17,1.17
-584,fuel all EUR/L,09/18,1.33
-585,fuel all EUR/L,09/19,1.26
-586,fuel all EUR/L,09/20,1.05
-587,fuel all EUR/L,09/21,1.41
-588,fuel all EUR/L,10/15,
-589,fuel all EUR/L,10/16,
-590,fuel all EUR/L,10/17,
-591,fuel all EUR/L,10/18,
-592,fuel all EUR/L,10/19,
-593,fuel all EUR/L,10/20,
-594,fuel all EUR/L,10/21,
-595,fuel all EUR/L,11/15,1.15
-596,fuel all EUR/L,11/16,1.13
-597,fuel all EUR/L,11/17,1.2
-598,fuel all EUR/L,11/18,1.43
-599,fuel all EUR/L,11/19,1.26
-600,fuel all EUR/L,11/20,1.05
-601,fuel all EUR/L,11/21,1.56
-602,fuel all EUR/L,12/15,1.07
-603,fuel all EUR/L,12/16,1.19
-604,fuel all EUR/L,12/17,1.22
-605,fuel all EUR/L,12/18,1.3
-606,fuel all EUR/L,12/19,1.27
-607,fuel all EUR/L,12/20,1.11
-608,fuel all EUR/L,12/21,1.53
-609,fuel fr EUR/L,01/16,0.85
-610,fuel fr EUR/L,01/17,1.06
-611,fuel fr EUR/L,01/18,1.16
-612,fuel fr EUR/L,01/19,1.17
-613,fuel fr EUR/L,01/20,1.23
-614,fuel fr EUR/L,01/21,1.08
-615,fuel fr EUR/L,01/22,1.36
-616,fuel fr EUR/L,02/16,0.85
-617,fuel fr EUR/L,02/17,1.05
-618,fuel fr EUR/L,02/18,1.15
-619,fuel fr EUR/L,02/19,1.19
-620,fuel fr EUR/L,02/20,1.17
-621,fuel fr EUR/L,02/21,1.12
-622,fuel fr EUR/L,02/22,1.42
-623,fuel fr EUR/L,03/15,1.01
-624,fuel fr EUR/L,03/16,0.88
-625,fuel fr EUR/L,03/17,1.04
-626,fuel fr EUR/L,03/18,1.14
-627,fuel fr EUR/L,03/19,1.22
-628,fuel fr EUR/L,03/20,1.07
-629,fuel fr EUR/L,03/21,1.15
-630,fuel fr EUR/L,03/22,1.69
-631,fuel fr EUR/L,04/15,1.0
-632,fuel fr EUR/L,04/16,0.89
-633,fuel fr EUR/L,04/17,1.04
-634,fuel fr EUR/L,04/18,1.17
-635,fuel fr EUR/L,04/19,1.22
-636,fuel fr EUR/L,04/20,1.01
-637,fuel fr EUR/L,04/21,1.15
-638,fuel fr EUR/L,04/22,1.69
-639,fuel fr EUR/L,05/15,1.03
-640,fuel fr EUR/L,05/16,0.94
-641,fuel fr EUR/L,05/17,1.01
-642,fuel fr EUR/L,05/18,1.21
-643,fuel fr EUR/L,05/19,1.23
-644,fuel fr EUR/L,05/20,0.97
-645,fuel fr EUR/L,05/21,1.16
-646,fuel fr EUR/L,05/22,1.72
-647,fuel fr EUR/L,06/15,1.01
-648,fuel fr EUR/L,06/16,0.96
-649,fuel fr EUR/L,06/17,0.98
-650,fuel fr EUR/L,06/18,1.22
-651,fuel fr EUR/L,06/19,1.18
-652,fuel fr EUR/L,06/20,1.01
-653,fuel fr EUR/L,06/22,
-654,fuel fr EUR/L,07/15,0.98
-655,fuel fr EUR/L,07/16,0.93
-656,fuel fr EUR/L,07/17,0.98
-657,fuel fr EUR/L,07/18,1.2
-658,fuel fr EUR/L,07/19,1.18
-659,fuel fr EUR/L,07/20,1.03
-660,fuel fr EUR/L,07/21,1.2
-661,fuel fr EUR/L,08/15,0.93
-662,fuel fr EUR/L,08/16,0.92
-663,fuel fr EUR/L,08/17,1.0
-664,fuel fr EUR/L,08/18,1.21
-665,fuel fr EUR/L,08/19,1.18
-666,fuel fr EUR/L,08/20,1.03
-667,fuel fr EUR/L,08/21,1.19
-668,fuel fr EUR/L,09/15,0.92
-669,fuel fr EUR/L,09/16,0.93
-670,fuel fr EUR/L,09/17,1.02
-671,fuel fr EUR/L,09/18,1.23
-672,fuel fr EUR/L,09/19,1.2
-673,fuel fr EUR/L,09/20,1.0
-674,fuel fr EUR/L,09/21,1.21
-675,fuel fr EUR/L,10/15,0.92
-676,fuel fr EUR/L,10/16,0.97
-677,fuel fr EUR/L,10/17,1.03
-678,fuel fr EUR/L,10/18,1.27
-679,fuel fr EUR/L,10/19,1.2
-680,fuel fr EUR/L,10/20,1.0
-681,fuel fr EUR/L,10/21,1.28
-682,fuel fr EUR/L,11/15,0.92
-683,fuel fr EUR/L,11/16,0.95
-684,fuel fr EUR/L,11/17,1.06
-685,fuel fr EUR/L,11/18,1.22
-686,fuel fr EUR/L,11/19,1.2
-687,fuel fr EUR/L,11/20,1.01
-688,fuel fr EUR/L,11/21,1.3
-689,fuel fr EUR/L,12/15,0.86
-690,fuel fr EUR/L,12/16,1.0
-691,fuel fr EUR/L,12/17,1.07
-692,fuel fr EUR/L,12/18,1.18
-693,fuel fr EUR/L,12/19,1.22
-694,fuel fr EUR/L,12/20,1.05
-695,fuel fr EUR/L,12/21,1.27
+,variable,Year/Month,value
+0,Brent (EUR/barrel),15/03,
+1,Brent (EUR/barrel),15/04,
+2,Brent (EUR/barrel),15/05,
+3,Brent (EUR/barrel),15/06,
+4,Brent (EUR/barrel),15/07,
+5,Brent (EUR/barrel),15/08,
+6,Brent (EUR/barrel),15/09,
+7,Brent (EUR/barrel),15/10,
+8,Brent (EUR/barrel),15/11,
+9,Brent (EUR/barrel),15/12,
+10,Brent (EUR/barrel),16/01,
+11,Brent (EUR/barrel),16/02,
+12,Brent (EUR/barrel),16/03,
+13,Brent (EUR/barrel),16/04,
+14,Brent (EUR/barrel),16/05,
+15,Brent (EUR/barrel),16/06,
+16,Brent (EUR/barrel),16/07,
+17,Brent (EUR/barrel),16/08,
+18,Brent (EUR/barrel),16/09,
+19,Brent (EUR/barrel),16/10,
+20,Brent (EUR/barrel),16/11,
+21,Brent (EUR/barrel),16/12,
+22,Brent (EUR/barrel),17/01,
+23,Brent (EUR/barrel),17/02,
+24,Brent (EUR/barrel),17/03,
+25,Brent (EUR/barrel),17/04,
+26,Brent (EUR/barrel),17/05,46.06
+27,Brent (EUR/barrel),17/06,41.35
+28,Brent (EUR/barrel),17/07,41.96
+29,Brent (EUR/barrel),17/08,43.79
+30,Brent (EUR/barrel),17/09,47.46
+31,Brent (EUR/barrel),17/10,48.89
+32,Brent (EUR/barrel),17/11,53.38
+33,Brent (EUR/barrel),17/12,54.37
+34,Brent (EUR/barrel),18/01,56.93
+35,Brent (EUR/barrel),18/02,52.92
+36,Brent (EUR/barrel),18/03,53.57
+37,Brent (EUR/barrel),18/04,58.67
+38,Brent (EUR/barrel),18/05,65.42
+39,Brent (EUR/barrel),18/06,63.6
+40,Brent (EUR/barrel),18/07,63.59
+41,Brent (EUR/barrel),18/08,62.4
+42,Brent (EUR/barrel),18/09,67.98
+43,Brent (EUR/barrel),18/10,70.64
+44,Brent (EUR/barrel),18/11,57.25
+45,Brent (EUR/barrel),18/12,50.6
+46,Brent (EUR/barrel),19/01,51.68
+47,Brent (EUR/barrel),19/02,56.37
+48,Brent (EUR/barrel),19/03,58.55
+49,Brent (EUR/barrel),19/04,63.39
+50,Brent (EUR/barrel),19/05,64.02
+51,Brent (EUR/barrel),19/06,56.75
+52,Brent (EUR/barrel),19/07,57.17
+53,Brent (EUR/barrel),19/08,53.13
+54,Brent (EUR/barrel),19/09,57.15
+55,Brent (EUR/barrel),19/10,53.88
+56,Brent (EUR/barrel),19/11,57.27
+57,Brent (EUR/barrel),19/12,60.04
+58,Brent (EUR/barrel),20/01,57.54
+59,Brent (EUR/barrel),20/02,51.33
+60,Brent (EUR/barrel),20/03,29.12
+61,Brent (EUR/barrel),20/04,16.77
+62,Brent (EUR/barrel),20/05,27.72
+63,Brent (EUR/barrel),20/06,35.65
+64,Brent (EUR/barrel),20/07,37.69
+65,Brent (EUR/barrel),20/08,37.88
+66,Brent (EUR/barrel),20/09,34.94
+67,Brent (EUR/barrel),20/10,34.28
+68,Brent (EUR/barrel),20/11,36.09
+69,Brent (EUR/barrel),20/12,40.94
+70,Brent (EUR/barrel),21/01,44.81
+71,Brent (EUR/barrel),21/02,51.71
+72,Brent (EUR/barrel),21/03,54.66
+73,Brent (EUR/barrel),21/04,54.0
+74,Brent (EUR/barrel),21/05,56.47
+75,Brent (EUR/barrel),21/07,63.19
+76,Brent (EUR/barrel),21/08,59.68
+77,Brent (EUR/barrel),21/09,63.52
+78,Brent (EUR/barrel),21/10,72.2
+79,Brent (EUR/barrel),21/11,71.76
+80,Brent (EUR/barrel),21/12,65.62
+81,Brent (EUR/barrel),22/01,76.17
+82,Brent (EUR/barrel),22/02,85.51
+83,Brent (EUR/barrel),22/03,104.3
+84,Brent (EUR/barrel),22/04,96.6
+85,Brent (EUR/barrel),22/05,104.4
+86,Brent (EUR/barrel),22/06,
+87,USD/EUROS,15/03,0.93
+88,USD/EUROS,15/04,0.93
+89,USD/EUROS,15/05,0.9
+90,USD/EUROS,15/06,0.89
+91,USD/EUROS,15/07,0.91
+92,USD/EUROS,15/08,0.9
+93,USD/EUROS,15/09,0.89
+94,USD/EUROS,15/10,0.89
+95,USD/EUROS,15/11,0.93
+96,USD/EUROS,15/12,0.92
+97,USD/EUROS,16/01,0.92
+98,USD/EUROS,16/02,0.9
+99,USD/EUROS,16/03,0.9
+100,USD/EUROS,16/04,0.88
+101,USD/EUROS,16/05,0.89
+102,USD/EUROS,16/06,0.89
+103,USD/EUROS,16/07,0.9
+104,USD/EUROS,16/08,0.89
+105,USD/EUROS,16/09,0.89
+106,USD/EUROS,16/10,0.91
+107,USD/EUROS,16/11,0.93
+108,USD/EUROS,16/12,0.95
+109,USD/EUROS,17/01,0.94
+110,USD/EUROS,17/02,0.94
+111,USD/EUROS,17/03,0.94
+112,USD/EUROS,17/04,0.93
+113,USD/EUROS,17/05,0.9
+114,USD/EUROS,17/06,0.89
+115,USD/EUROS,17/07,0.87
+116,USD/EUROS,17/08,0.85
+117,USD/EUROS,17/09,0.84
+118,USD/EUROS,17/10,0.85
+119,USD/EUROS,17/11,0.85
+120,USD/EUROS,17/12,0.85
+121,USD/EUROS,18/01,0.82
+122,USD/EUROS,18/02,0.81
+123,USD/EUROS,18/03,0.81
+124,USD/EUROS,18/04,0.82
+125,USD/EUROS,18/05,0.85
+126,USD/EUROS,18/06,0.86
+127,USD/EUROS,18/07,0.86
+128,USD/EUROS,18/08,0.87
+129,USD/EUROS,18/09,0.86
+130,USD/EUROS,18/10,0.87
+131,USD/EUROS,18/11,0.88
+132,USD/EUROS,18/12,0.88
+133,USD/EUROS,19/01,0.88
+134,USD/EUROS,19/02,0.88
+135,USD/EUROS,19/03,0.88
+136,USD/EUROS,19/04,0.89
+137,USD/EUROS,19/05,0.89
+138,USD/EUROS,19/06,0.89
+139,USD/EUROS,19/07,0.89
+140,USD/EUROS,19/08,0.9
+141,USD/EUROS,19/09,0.91
+142,USD/EUROS,19/10,0.91
+143,USD/EUROS,19/11,0.91
+144,USD/EUROS,19/12,0.9
+145,USD/EUROS,20/01,0.9
+146,USD/EUROS,20/02,0.92
+147,USD/EUROS,20/03,0.91
+148,USD/EUROS,20/04,0.92
+149,USD/EUROS,20/05,0.92
+150,USD/EUROS,20/06,0.89
+151,USD/EUROS,20/07,0.87
+152,USD/EUROS,20/08,0.85
+153,USD/EUROS,20/09,0.85
+154,USD/EUROS,20/10,0.85
+155,USD/EUROS,20/11,0.85
+156,USD/EUROS,20/12,0.82
+157,USD/EUROS,21/01,0.82
+158,USD/EUROS,21/02,0.83
+159,USD/EUROS,21/03,0.84
+160,USD/EUROS,21/04,0.83
+161,USD/EUROS,21/05,0.82
+162,USD/EUROS,21/07,0.85
+163,USD/EUROS,21/08,0.85
+164,USD/EUROS,21/09,0.85
+165,USD/EUROS,21/10,0.86
+166,USD/EUROS,21/11,0.87
+167,USD/EUROS,21/12,0.88
+168,USD/EUROS,22/01,0.88
+169,USD/EUROS,22/02,0.88
+170,USD/EUROS,22/03,0.91
+171,USD/EUROS,22/04,0.93
+172,USD/EUROS,22/05,0.94
+173,USD/EUROS,22/06,0.94
+174,aluminium (EUR),15/03,1645.95
+175,aluminium (EUR),15/04,1668.98
+176,aluminium (EUR),15/05,1590.04
+177,aluminium (EUR),15/06,1582.51
+178,aluminium (EUR),15/07,1578.93
+179,aluminium (EUR),15/08,1520.51
+180,aluminium (EUR),15/09,1514.5
+181,aluminium (EUR),15/10,1495.34
+182,aluminium (EUR),15/11,1483.73
+183,aluminium (EUR),15/12,1473.13
+184,aluminium (EUR),16/01,1516.07
+185,aluminium (EUR),16/02,1478.72
+186,aluminium (EUR),16/03,1469.39
+187,aluminium (EUR),16/04,1439.1
+188,aluminium (EUR),16/05,1422.68
+189,aluminium (EUR),16/06,1426.24
+190,aluminium (EUR),16/07,1443.58
+191,aluminium (EUR),16/08,1448.42
+192,aluminium (EUR),16/09,1447.38
+193,aluminium (EUR),16/10,1459.71
+194,aluminium (EUR),16/11,1488.45
+195,aluminium (EUR),16/12,1514.38
+196,aluminium (EUR),17/01,1524.32
+197,aluminium (EUR),17/02,1564.53
+198,aluminium (EUR),17/03,1616.14
+199,aluminium (EUR),17/04,1599.03
+200,aluminium (EUR),17/05,1522.28
+201,aluminium (EUR),17/06,1455.45
+202,aluminium (EUR),17/07,1434.21
+203,aluminium (EUR),17/08,1482.69
+204,aluminium (EUR),17/09,1505.9
+205,aluminium (EUR),17/10,1572.08
+206,aluminium (EUR),17/11,1592.72
+207,aluminium (EUR),17/12,1546.2
+208,aluminium (EUR),18/01,1514.35
+209,aluminium (EUR),18/02,1498.58
+210,aluminium (EUR),18/03,1498.38
+211,aluminium (EUR),18/04,1546.67
+212,aluminium (EUR),18/05,1605.92
+213,aluminium (EUR),18/06,1537.7
+214,aluminium (EUR),18/07,1514.24
+215,aluminium (EUR),18/08,1443.12
+216,aluminium (EUR),18/09,1330.52
+217,aluminium (EUR),18/10,1278.59
+218,aluminium (EUR),18/11,1283.14
+219,aluminium (EUR),18/12,1292.53
+220,aluminium (EUR),19/01,1322.6
+221,aluminium (EUR),19/02,1380.85
+222,aluminium (EUR),19/03,1342.07
+223,aluminium (EUR),19/04,1289.1
+224,aluminium (EUR),19/05,1232.86
+225,aluminium (EUR),19/06,1055.17
+226,aluminium (EUR),19/07,1107.84
+227,aluminium (EUR),19/08,1074.24
+228,aluminium (EUR),19/09,1066.21
+229,aluminium (EUR),19/10,1087.17
+230,aluminium (EUR),19/11,1127.04
+231,aluminium (EUR),19/12,1218.84
+232,aluminium (EUR),20/01,1254.78
+233,aluminium (EUR),20/02,1268.47
+234,aluminium (EUR),20/03,1181.7
+235,aluminium (EUR),20/04,1107.05
+236,aluminium (EUR),20/05,1115.53
+237,aluminium (EUR),20/06,1074.41
+238,aluminium (EUR),20/07,1087.91
+239,aluminium (EUR),20/08,1126.62
+240,aluminium (EUR),20/09,1262.98
+241,aluminium (EUR),20/10,1318.19
+242,aluminium (EUR),20/11,1377.89
+243,aluminium (EUR),20/12,1509.93
+244,aluminium (EUR),21/01,1574.33
+245,aluminium (EUR),21/02,1731.37
+246,aluminium (EUR),21/03,1837.53
+247,aluminium (EUR),21/04,1630.54
+248,aluminium (EUR),21/05,1698.5
+249,aluminium (EUR),21/07,1882.99
+250,aluminium (EUR),21/08,1928.24
+251,aluminium (EUR),21/09,2076.48
+252,aluminium (EUR),21/10,2310.11
+253,aluminium (EUR),21/11,2144.53
+254,aluminium (EUR),21/12,2055.86
+255,aluminium (EUR),22/01,2089.32
+256,aluminium (EUR),22/02,2312.02
+257,aluminium (EUR),22/03,2593.97
+258,aluminium (EUR),22/04,2447.1
+259,aluminium (EUR),22/05,1848.66
+260,aluminium (EUR),22/06,1636.12
+261,beams EUR/ton,15/03,
+262,beams EUR/ton,15/04,
+263,beams EUR/ton,15/05,
+264,beams EUR/ton,15/06,
+265,beams EUR/ton,15/07,
+266,beams EUR/ton,15/08,
+267,beams EUR/ton,15/09,
+268,beams EUR/ton,15/10,
+269,beams EUR/ton,15/11,
+270,beams EUR/ton,15/12,
+271,beams EUR/ton,16/01,
+272,beams EUR/ton,16/02,
+273,beams EUR/ton,16/03,
+274,beams EUR/ton,16/04,
+275,beams EUR/ton,16/05,
+276,beams EUR/ton,16/06,
+277,beams EUR/ton,16/07,
+278,beams EUR/ton,16/08,
+279,beams EUR/ton,16/09,
+280,beams EUR/ton,16/10,
+281,beams EUR/ton,16/11,
+282,beams EUR/ton,16/12,
+283,beams EUR/ton,17/01,
+284,beams EUR/ton,17/02,
+285,beams EUR/ton,17/03,
+286,beams EUR/ton,17/04,
+287,beams EUR/ton,17/05,
+288,beams EUR/ton,17/06,551.0
+289,beams EUR/ton,17/07,555.0
+290,beams EUR/ton,17/08,553.0
+291,beams EUR/ton,17/09,597.0
+292,beams EUR/ton,17/10,623.0
+293,beams EUR/ton,17/11,623.0
+294,beams EUR/ton,17/12,635.0
+295,beams EUR/ton,18/01,658.0
+296,beams EUR/ton,18/02,663.0
+297,beams EUR/ton,18/03,655.0
+298,beams EUR/ton,18/04,655.0
+299,beams EUR/ton,18/05,650.0
+300,beams EUR/ton,18/06,641.0
+301,beams EUR/ton,18/07,640.0
+302,beams EUR/ton,18/08,639.0
+303,beams EUR/ton,18/09,652.0
+304,beams EUR/ton,18/10,659.0
+305,beams EUR/ton,18/11,657.0
+306,beams EUR/ton,18/12,653.0
+307,beams EUR/ton,19/01,647.0
+308,beams EUR/ton,19/02,641.0
+309,beams EUR/ton,19/03,646.0
+310,beams EUR/ton,19/04,644.0
+311,beams EUR/ton,19/05,631.0
+312,beams EUR/ton,19/06,614.0
+313,beams EUR/ton,19/07,605.0
+314,beams EUR/ton,19/08,594.0
+315,beams EUR/ton,19/09,588.0
+316,beams EUR/ton,19/10,571.0
+317,beams EUR/ton,19/11,563.0
+318,beams EUR/ton,19/12,565.0
+319,beams EUR/ton,20/01,570.0
+320,beams EUR/ton,20/02,571.0
+321,beams EUR/ton,20/03,558.0
+322,beams EUR/ton,20/04,559.0
+323,beams EUR/ton,20/05,551.0
+324,beams EUR/ton,20/06,529.0
+325,beams EUR/ton,20/07,520.0
+326,beams EUR/ton,20/08,524.0
+327,beams EUR/ton,20/09,535.0
+328,beams EUR/ton,20/10,540.0
+329,beams EUR/ton,20/11,539.0
+330,beams EUR/ton,20/12,563.0
+331,beams EUR/ton,21/01,737.0
+332,beams EUR/ton,21/02,740.0
+333,beams EUR/ton,21/03,729.0
+334,beams EUR/ton,21/04,734.0
+335,beams EUR/ton,21/05,796.0
+336,beams EUR/ton,21/07,1017.0
+337,beams EUR/ton,21/08,1029.0
+338,beams EUR/ton,21/09,1009.0
+339,beams EUR/ton,21/10,986.0
+340,beams EUR/ton,21/11,999.0
+341,beams EUR/ton,21/12,981.0
+342,beams EUR/ton,22/01,1049.0
+343,beams EUR/ton,22/02,1053.0
+344,beams EUR/ton,22/03,1250.0
+345,beams EUR/ton,22/04,1458.0
+346,beams EUR/ton,22/05,1447.0
+347,beams EUR/ton,22/06,1370.0
+348,coils EUR/ton,15/03,
+349,coils EUR/ton,15/04,
+350,coils EUR/ton,15/05,
+351,coils EUR/ton,15/06,
+352,coils EUR/ton,15/07,
+353,coils EUR/ton,15/08,
+354,coils EUR/ton,15/09,
+355,coils EUR/ton,15/10,
+356,coils EUR/ton,15/11,
+357,coils EUR/ton,15/12,
+358,coils EUR/ton,16/01,
+359,coils EUR/ton,16/02,
+360,coils EUR/ton,16/03,
+361,coils EUR/ton,16/04,
+362,coils EUR/ton,16/05,
+363,coils EUR/ton,16/06,
+364,coils EUR/ton,16/07,
+365,coils EUR/ton,16/08,
+366,coils EUR/ton,16/09,
+367,coils EUR/ton,16/10,
+368,coils EUR/ton,16/11,
+369,coils EUR/ton,16/12,
+370,coils EUR/ton,17/01,
+371,coils EUR/ton,17/02,
+372,coils EUR/ton,17/03,
+373,coils EUR/ton,17/04,
+374,coils EUR/ton,17/05,
+375,coils EUR/ton,17/06,734.0
+376,coils EUR/ton,17/07,701.0
+377,coils EUR/ton,17/08,699.0
+378,coils EUR/ton,17/09,724.0
+379,coils EUR/ton,17/10,729.0
+380,coils EUR/ton,17/11,727.0
+381,coils EUR/ton,17/12,726.0
+382,coils EUR/ton,18/01,737.0
+383,coils EUR/ton,18/02,761.0
+384,coils EUR/ton,18/03,768.0
+385,coils EUR/ton,18/04,781.0
+386,coils EUR/ton,18/05,773.0
+387,coils EUR/ton,18/06,763.0
+388,coils EUR/ton,18/07,763.0
+389,coils EUR/ton,18/08,763.0
+390,coils EUR/ton,18/09,774.0
+391,coils EUR/ton,18/10,760.0
+392,coils EUR/ton,18/11,745.0
+393,coils EUR/ton,18/12,731.0
+394,coils EUR/ton,19/01,712.0
+395,coils EUR/ton,19/02,698.0
+396,coils EUR/ton,19/03,701.0
+397,coils EUR/ton,19/04,699.0
+398,coils EUR/ton,19/05,685.0
+399,coils EUR/ton,19/06,679.0
+400,coils EUR/ton,19/07,677.0
+401,coils EUR/ton,19/08,667.0
+402,coils EUR/ton,19/09,666.0
+403,coils EUR/ton,19/10,653.0
+404,coils EUR/ton,19/11,635.0
+405,coils EUR/ton,19/12,637.0
+406,coils EUR/ton,20/01,655.0
+407,coils EUR/ton,20/02,673.0
+408,coils EUR/ton,20/03,680.0
+409,coils EUR/ton,20/04,683.0
+410,coils EUR/ton,20/05,660.0
+411,coils EUR/ton,20/06,627.0
+412,coils EUR/ton,20/07,615.0
+413,coils EUR/ton,20/08,626.0
+414,coils EUR/ton,20/09,663.0
+415,coils EUR/ton,20/10,687.0
+416,coils EUR/ton,20/11,713.0
+417,coils EUR/ton,20/12,777.0
+418,coils EUR/ton,21/01,890.0
+419,coils EUR/ton,21/02,932.0
+420,coils EUR/ton,21/03,966.0
+421,coils EUR/ton,21/04,1116.0
+422,coils EUR/ton,21/05,1271.0
+423,coils EUR/ton,21/07,1384.0
+424,coils EUR/ton,21/08,1391.0
+425,coils EUR/ton,21/09,1383.0
+426,coils EUR/ton,21/10,1334.0
+427,coils EUR/ton,21/11,1251.0
+428,coils EUR/ton,21/12,1190.0
+429,coils EUR/ton,22/01,1170.0
+430,coils EUR/ton,22/02,1173.0
+431,coils EUR/ton,22/03,1408.0
+432,coils EUR/ton,22/04,1614.0
+433,coils EUR/ton,22/05,1426.0
+434,coils EUR/ton,22/06,1285.0
+435,copper,15/03,5885.95
+436,copper,15/04,6018.51
+437,copper,15/05,6291.06
+438,copper,15/06,5883.3
+439,copper,15/07,5523.64
+440,copper,15/08,5166.59
+441,copper,15/09,5202.07
+442,copper,15/10,5178.49
+443,copper,15/11,4789.62
+444,copper,15/12,4628.88
+445,copper,16/01,4460.25
+446,copper,16/02,4583.46
+447,copper,16/03,4906.44
+448,copper,16/04,4849.78
+449,copper,16/05,4689.14
+450,copper,16/06,4653.45
+451,copper,16/07,4912.54
+452,copper,16/08,4793.01
+453,copper,16/09,4786.7
+454,copper,16/10,4789.51
+455,copper,16/11,5479.44
+456,copper,16/12,5668.5
+457,copper,17/01,5782.99
+458,copper,17/02,5971.41
+459,copper,17/03,5871.61
+460,copper,17/04,5759.51
+461,copper,17/05,5681.15
+462,copper,17/06,5795.33
+463,copper,17/07,6066.26
+464,copper,17/08,6576.99
+465,copper,17/09,6689.25
+466,copper,17/10,6909.4
+467,copper,17/11,6919.89
+468,copper,17/12,6935.9
+469,copper,18/01,7215.29
+470,copper,18/02,7147.94
+471,copper,18/03,6937.4
+472,copper,18/04,7012.36
+473,copper,18/05,6954.67
+474,copper,18/06,7029.27
+475,copper,18/07,6361.28
+476,copper,18/08,6155.2
+477,copper,18/09,6094.55
+478,copper,18/10,6208.31
+479,copper,18/11,6132.79
+480,copper,18/12,6078.85
+481,copper,19/01,5991.62
+482,copper,19/02,6317.08
+483,copper,19/03,6429.08
+484,copper,19/04,6487.05
+485,copper,19/05,6095.75
+486,copper,19/06,5954.3
+487,copper,19/07,6007.12
+488,copper,19/08,5794.86
+489,copper,19/09,5822.41
+490,copper,19/10,5841.31
+491,copper,19/11,5943.39
+492,copper,19/12,6145.59
+493,copper,20/01,6128.69
+494,copper,20/02,5774.08
+495,copper,20/03,5254.53
+496,copper,20/04,5152.1
+497,copper,20/05,5366.12
+498,copper,20/06,5810.99
+499,copper,20/07,6358.81
+500,copper,20/08,6500.01
+501,copper,20/09,6676.2
+502,copper,20/10,6725.55
+503,copper,20/11,7066.72
+504,copper,20/12,7753.52
+505,copper,21/01,7907.4
+506,copper,21/02,8278.69
+507,copper,21/03,8833.83
+508,copper,21/04,9251.18
+509,copper,21/05,10080.99
+510,copper,21/07,9637.08
+511,copper,21/08,9260.19
+512,copper,21/09,9245.5
+513,copper,21/10,9500.62
+514,copper,21/11,9472.01
+515,copper,21/12,9343.34
+516,copper,22/01,9567.4
+517,copper,22/02,9693.52
+518,copper,22/03,10136.19
+519,copper,22/04,10186.77
+520,copper,22/05,9347.76
+521,copper,22/06,9677.05
+522,fuel all EUR/L,15/03,1.22
+523,fuel all EUR/L,15/04,1.23
+524,fuel all EUR/L,15/05,1.27
+525,fuel all EUR/L,15/06,1.25
+526,fuel all EUR/L,15/07,1.21
+527,fuel all EUR/L,15/08,1.16
+528,fuel all EUR/L,15/09,1.15
+529,fuel all EUR/L,15/10,
+530,fuel all EUR/L,15/11,1.15
+531,fuel all EUR/L,15/12,1.07
+532,fuel all EUR/L,16/01,1.0
+533,fuel all EUR/L,16/02,0.99
+534,fuel all EUR/L,16/03,1.04
+535,fuel all EUR/L,16/04,1.05
+536,fuel all EUR/L,16/05,1.1
+537,fuel all EUR/L,16/06,1.12
+538,fuel all EUR/L,16/07,1.1
+539,fuel all EUR/L,16/08,1.09
+540,fuel all EUR/L,16/09,1.11
+541,fuel all EUR/L,16/10,
+542,fuel all EUR/L,16/11,1.13
+543,fuel all EUR/L,16/12,1.19
+544,fuel all EUR/L,17/01,1.2
+545,fuel all EUR/L,17/02,1.2
+546,fuel all EUR/L,17/03,1.18
+547,fuel all EUR/L,17/04,1.18
+548,fuel all EUR/L,17/05,1.16
+549,fuel all EUR/L,17/06,1.13
+550,fuel all EUR/L,17/07,1.13
+551,fuel all EUR/L,17/08,1.14
+552,fuel all EUR/L,17/09,1.17
+553,fuel all EUR/L,17/10,
+554,fuel all EUR/L,17/11,1.2
+555,fuel all EUR/L,17/12,1.22
+556,fuel all EUR/L,18/01,1.21
+557,fuel all EUR/L,18/02,1.18
+558,fuel all EUR/L,18/03,1.18
+559,fuel all EUR/L,18/04,1.21
+560,fuel all EUR/L,18/05,1.27
+561,fuel all EUR/L,18/06,1.28
+562,fuel all EUR/L,18/07,1.27
+563,fuel all EUR/L,18/08,1.29
+564,fuel all EUR/L,18/09,1.33
+565,fuel all EUR/L,18/10,
+566,fuel all EUR/L,18/11,1.43
+567,fuel all EUR/L,18/12,1.3
+568,fuel all EUR/L,19/01,1.23
+569,fuel all EUR/L,19/02,1.25
+570,fuel all EUR/L,19/03,1.26
+571,fuel all EUR/L,19/04,1.27
+572,fuel all EUR/L,19/05,1.3
+573,fuel all EUR/L,19/06,1.26
+574,fuel all EUR/L,19/07,1.25
+575,fuel all EUR/L,19/08,1.24
+576,fuel all EUR/L,19/09,1.26
+577,fuel all EUR/L,19/10,
+578,fuel all EUR/L,19/11,1.26
+579,fuel all EUR/L,19/12,1.27
+580,fuel all EUR/L,20/01,1.3
+581,fuel all EUR/L,20/02,1.24
+582,fuel all EUR/L,20/03,1.16
+583,fuel all EUR/L,20/04,1.08
+584,fuel all EUR/L,20/05,1.05
+585,fuel all EUR/L,20/06,1.08
+586,fuel all EUR/L,20/07,1.09
+587,fuel all EUR/L,20/08,1.08
+588,fuel all EUR/L,20/09,1.05
+589,fuel all EUR/L,20/10,
+590,fuel all EUR/L,20/11,1.05
+591,fuel all EUR/L,20/12,1.11
+592,fuel all EUR/L,21/01,1.24
+593,fuel all EUR/L,21/02,1.28
+594,fuel all EUR/L,21/03,1.32
+595,fuel all EUR/L,21/04,1.31
+596,fuel all EUR/L,21/05,1.33
+597,fuel all EUR/L,21/07,1.39
+598,fuel all EUR/L,21/08,1.39
+599,fuel all EUR/L,21/09,1.41
+600,fuel all EUR/L,21/10,
+601,fuel all EUR/L,21/11,1.56
+602,fuel all EUR/L,21/12,1.53
+603,fuel all EUR/L,22/01,1.6
+604,fuel all EUR/L,22/02,1.67
+605,fuel all EUR/L,22/03,2.14
+606,fuel all EUR/L,22/04,2.03
+607,fuel all EUR/L,22/05,2.04
+608,fuel all EUR/L,22/06,2.0
+609,fuel fr EUR/L,15/03,1.01
+610,fuel fr EUR/L,15/04,1.0
+611,fuel fr EUR/L,15/05,1.03
+612,fuel fr EUR/L,15/06,1.01
+613,fuel fr EUR/L,15/07,0.98
+614,fuel fr EUR/L,15/08,0.93
+615,fuel fr EUR/L,15/09,0.92
+616,fuel fr EUR/L,15/10,0.92
+617,fuel fr EUR/L,15/11,0.92
+618,fuel fr EUR/L,15/12,0.86
+619,fuel fr EUR/L,16/01,0.85
+620,fuel fr EUR/L,16/02,0.85
+621,fuel fr EUR/L,16/03,0.88
+622,fuel fr EUR/L,16/04,0.89
+623,fuel fr EUR/L,16/05,0.94
+624,fuel fr EUR/L,16/06,0.96
+625,fuel fr EUR/L,16/07,0.93
+626,fuel fr EUR/L,16/08,0.92
+627,fuel fr EUR/L,16/09,0.93
+628,fuel fr EUR/L,16/10,0.97
+629,fuel fr EUR/L,16/11,0.95
+630,fuel fr EUR/L,16/12,1.0
+631,fuel fr EUR/L,17/01,1.06
+632,fuel fr EUR/L,17/02,1.05
+633,fuel fr EUR/L,17/03,1.04
+634,fuel fr EUR/L,17/04,1.04
+635,fuel fr EUR/L,17/05,1.01
+636,fuel fr EUR/L,17/06,0.98
+637,fuel fr EUR/L,17/07,0.98
+638,fuel fr EUR/L,17/08,1.0
+639,fuel fr EUR/L,17/09,1.02
+640,fuel fr EUR/L,17/10,1.03
+641,fuel fr EUR/L,17/11,1.06
+642,fuel fr EUR/L,17/12,1.07
+643,fuel fr EUR/L,18/01,1.16
+644,fuel fr EUR/L,18/02,1.15
+645,fuel fr EUR/L,18/03,1.14
+646,fuel fr EUR/L,18/04,1.17
+647,fuel fr EUR/L,18/05,1.21
+648,fuel fr EUR/L,18/06,1.22
+649,fuel fr EUR/L,18/07,1.2
+650,fuel fr EUR/L,18/08,1.21
+651,fuel fr EUR/L,18/09,1.23
+652,fuel fr EUR/L,18/10,1.27
+653,fuel fr EUR/L,18/11,1.22
+654,fuel fr EUR/L,18/12,1.18
+655,fuel fr EUR/L,19/01,1.17
+656,fuel fr EUR/L,19/02,1.19
+657,fuel fr EUR/L,19/03,1.22
+658,fuel fr EUR/L,19/04,1.22
+659,fuel fr EUR/L,19/05,1.23
+660,fuel fr EUR/L,19/06,1.18
+661,fuel fr EUR/L,19/07,1.18
+662,fuel fr EUR/L,19/08,1.18
+663,fuel fr EUR/L,19/09,1.2
+664,fuel fr EUR/L,19/10,1.2
+665,fuel fr EUR/L,19/11,1.2
+666,fuel fr EUR/L,19/12,1.22
+667,fuel fr EUR/L,20/01,1.23
+668,fuel fr EUR/L,20/02,1.17
+669,fuel fr EUR/L,20/03,1.07
+670,fuel fr EUR/L,20/04,1.01
+671,fuel fr EUR/L,20/05,0.97
+672,fuel fr EUR/L,20/06,1.01
+673,fuel fr EUR/L,20/07,1.03
+674,fuel fr EUR/L,20/08,1.03
+675,fuel fr EUR/L,20/09,1.0
+676,fuel fr EUR/L,20/10,1.0
+677,fuel fr EUR/L,20/11,1.01
+678,fuel fr EUR/L,20/12,1.05
+679,fuel fr EUR/L,21/01,1.08
+680,fuel fr EUR/L,21/02,1.12
+681,fuel fr EUR/L,21/03,1.15
+682,fuel fr EUR/L,21/04,1.15
+683,fuel fr EUR/L,21/05,1.16
+684,fuel fr EUR/L,21/07,1.2
+685,fuel fr EUR/L,21/08,1.19
+686,fuel fr EUR/L,21/09,1.21
+687,fuel fr EUR/L,21/10,1.28
+688,fuel fr EUR/L,21/11,1.3
+689,fuel fr EUR/L,21/12,1.27
+690,fuel fr EUR/L,22/01,1.36
+691,fuel fr EUR/L,22/02,1.42
+692,fuel fr EUR/L,22/03,1.69
+693,fuel fr EUR/L,22/04,1.69
+694,fuel fr EUR/L,22/05,1.72
+695,fuel fr EUR/L,22/06,
