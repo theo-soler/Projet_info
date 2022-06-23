@@ -28,7 +28,7 @@ Remarques :
 Sources de données fiables pour l’acquisition du cours de matières premières suivantes :
 -	[x]	Aluminium
 -	[x]	Oil (Brent)
--	[ ] 	Steel (Coils & Beams)
+-	[x] 	Steel (Coils & Beams)
 -	[x]	Copper
 -	[ ]	Wood
 -	[ ] … 
@@ -44,7 +44,7 @@ Choix techniques :
 -	Stockage des données acquis au format .csv
 
 ## Phase 3 : 
-- [ ] Consolidation du jeu de données sous le format suivant :
+- [x] Consolidation du jeu de données sous le format suivant :
 
 | Date     | Cours    | Variable        |
 | :-------------: | :-------------: | :--------:    |
