@@ -1,13 +1,10 @@
 print('Starting import')
 from bs4 import BeautifulSoup
 import requests
-import time
 import pandas as pd
 import io
 import codecs
-import sys
 import numpy as np
-import matplotlib.pyplot as plt
 print('Starting import : done')
 
 
@@ -105,7 +102,7 @@ print('Collecting data for copper : done')
 print('Begin collecting csv for brent')
 URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=off&txtcolor=%23444444&ts=12&tts=12&width=1168&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=DCOILBRENTEU&scale=left&cosd=2017-05-23&coed=2022-05-23&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Daily&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2022-05-27&revision_date=2022-05-27&nd=1987-05-20"
 response = requests.get(URL)
-open("brent_europe.csv", "wb").write(response.content)
+open("csv/brent_europe.csv", "wb").write(response.content)
 brent_data = response.content.decode('utf8')
 
 #on met en forme le jeu de données (format des valeurs et des dates)
@@ -193,7 +190,7 @@ print('Collecting data for fuel_ALL : done')
 
 # Coils
 print('Begin collecting data for coils')
-file = codecs.open('MEPS-Europe Hot Dipped Galvanised Coil Price Forecast.html')
+file = codecs.open('html/MEPS-Europe Hot Dipped Galvanised Coil Price Forecast.html')
 r = bytes(file.read(), 'utf-8')
 soup = BeautifulSoup(r, 'html.parser')
 rows_date = soup.select('tr td b')[3:]
@@ -220,7 +217,7 @@ print('Collecting data for coils : done')
 
 # Beams
 print('Begin collecting data for beams')
-ile = codecs.open('MEPS-Europe Sections & Beams Price Forecast.html')
+ile = codecs.open('html/MEPS-Europe Sections & Beams Price Forecast.html')
 r = bytes(file.read(), 'utf-8')
 soup = BeautifulSoup(r, 'html.parser')
 rows_date = soup.select('tr td b')[3:]
@@ -274,13 +271,13 @@ print('Converting values into float : done')
 
 #cree un fichier csv avec en index les dates et en colonne les cours aux différents moments
 print('Creating csv for each data')
-df_alu_alloy.to_csv (r'Alu_alloy_LME.csv', index = True, header=True)
-df_taux_de_change.to_csv (r'Taux_echange.csv', index = True, header=True)
-df_copper.to_csv (r'copper_LME.csv', index = True, header=True)
-df_fuel_fr.to_csv(r'fuel_fr.csv', index = True, header=True)
-df_coils.to_csv(r'coils.csv', index = True, header=True)
-df_beams.to_csv(r'beams.csv', index=True, header = True)
-df_fuel_all.to_csv(r'beams.csv', index=True, header = True)
+df_alu_alloy.to_csv (r'csv/Alu_alloy_LME.csv', index = True, header=True)
+df_taux_de_change.to_csv (r'csv/Taux_echange.csv', index = True, header=True)
+df_copper.to_csv (r'csv/copper_LME.csv', index = True, header=True)
+df_fuel_fr.to_csv(r'csv/fuel_fr.csv', index = True, header=True)
+df_coils.to_csv(r'csv/coils.csv', index = True, header=True)
+df_beams.to_csv(r'csv/beams.csv', index=True, header = True)
+df_fuel_all.to_csv(r'csv/beams.csv', index=True, header = True)
 print('Creating csv for each data : done')
 
 
@@ -307,7 +304,7 @@ print('Converting values into euros : done')
 print('Saving data')
 tab_f['Date'] = tab_f.index
 tab_melted = pd.melt(tab_f, id_vars=['Date'])
-tab_melted.to_csv(r'tableau_final.csv', index = True, header = True)
+tab_melted.to_csv(r'csv/tableau_final.csv', index = True, header = True)
 print('Saving data : done')
 
 
@@ -327,5 +324,5 @@ print('Filling NaN : done')
 
 # Saving tab by month
 print('Saving data in tableau_by_month.csv')
-tab.to_csv(r'tableau_by_month.csv', index = True, header = True)
+tab.to_csv(r'csv/tableau_by_month.csv', index = True, header = True)
 print('Saving data in tableau_by_month.csv : done')
