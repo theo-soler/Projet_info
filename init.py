@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def main():
     print('Starting import')
     from bs4 import BeautifulSoup
@@ -8,6 +9,7 @@ def main():
     import numpy as np
     import matplotlib.pyplot as plt
     from pathlib import Path
+    import openpyxl
     print('Starting import : done')
 
 
@@ -329,6 +331,8 @@ def main():
 
     # Saving tab by month
     print('Saving data in tableau_final.csv')
+    tab['Date'] = pd.to_datetime(tab.Date)
+    tab['Date'].dt.strftime('%m/%Y')
     tab.to_csv(r'csv/tableau_final.csv', index = True, header = True)
     print('Saving data in tableau_final.csv : done')
 
@@ -343,6 +347,188 @@ def main():
         plt.savefig('png/' + elem.replace("/", "-") + '.png')
     print('Saving plot in png : done')
     
+    #importing prices
+    #fenetres
+    print('Importing prices for material : windows')
+    wb_fenetre = openpyxl.load_workbook('Extracts prix/Price Development Material Fenetre.xlsx')
+    sheet_fenetre = wb_fenetre.active
+
+    max_col_fenetre = sheet_fenetre.max_column
+    dico_fenetre = {}
+    for i in range(2, max_col_fenetre+1):
+        dico_fenetre[sheet_fenetre.cell(row = 7, column = i).value] = sheet_fenetre.cell(row = 8, column = i).value 
+
+
+    liste = list(dico_fenetre.items())
+    dico_a_ajouter = {} 
+    for el in range(1, len(dico_fenetre.items())) :
+        date, valeur = liste[el]
+        date_avant, valeur_avant = liste[el-1]
+        if int(date[-2:]) - int(date_avant[-2:]) != 1 and int(date[:4]) - int(date_avant[:4]) == 0 :
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])):
+                if k < 10:
+                    dico_a_ajouter[date[:4] + '/0' + str(k)] = valeur_avant
+                else :
+                    dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+        elif int(date[-2:]) - int(date_avant[-2:]) != 11 and int(date[:4]) - int(date_avant[:4]) == 1:
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])+12):
+                if k <= 12:
+                    if k <10:
+                        dico_a_ajouter[date_avant[:4] + '/0' + str(k)] = valeur_avant
+                    else:
+                        dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+                else :
+                    if k%12 < 10:
+                        dico_a_ajouter[date[:4] + '/0' + str(k%12)] = valeur_avant
+                    else :
+                        dico_a_ajouter[date[:4] + '/' + str(k%12)] = valeur_avant
+
+    for el in dico_a_ajouter.items():
+        date, valeur = el
+        dico_fenetre[date] = valeur
+        
+    print('Importing prices for material : windows : done')
+    
+    #garde corps
+    print('Importing prices for material : garde corps')
+
+    wb_garde_corps = openpyxl.load_workbook('Extracts prix/Price Development Material Garde Corps.xlsx')
+    sheet_garde_corps = wb_garde_corps.active
+
+    max_col_garde_corps = sheet_garde_corps.max_column
+    dico_garde_corps = {}
+    for i in range(2, max_col_garde_corps+1):
+        dico_garde_corps[sheet_garde_corps.cell(row = 7, column = i).value] = sheet_garde_corps.cell(row = 8, column = i).value 
+
+    liste = list(dico_garde_corps.items())
+    dico_a_ajouter = {} 
+    for el in range(1, len(dico_garde_corps.items())) :
+        date, valeur = liste[el]
+        date_avant, valeur_avant = liste[el-1]
+        if int(date[-2:]) - int(date_avant[-2:]) != 1 and int(date[:4]) - int(date_avant[:4]) == 0 :
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])):
+                if k < 10:
+                    dico_a_ajouter[date[:4] + '/0' + str(k)] = valeur_avant
+                else :
+                    dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+        elif int(date[-2:]) - int(date_avant[-2:]) != 11 and int(date[:4]) - int(date_avant[:4]) == 1:
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])+12):
+                if k <= 12:
+                    if k <10:
+                        dico_a_ajouter[date_avant[:4] + '/0' + str(k)] = valeur_avant
+                    else:
+                        dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+                else :
+                    if k%12 < 10:
+                        dico_a_ajouter[date[:4] + '/0' + str(k%12)] = valeur_avant
+                    else :
+                        dico_a_ajouter[date[:4] + '/' + str(k%12)] = valeur_avant
+
+    for el in dico_a_ajouter.items():
+        date, valeur = el
+        dico_garde_corps[date] = valeur
+        
+    print('Importing prices for material : garde corps : done')
+    
+    #roof
+    print('Importing prices for material : roof skeleton')
+    wb_toit = openpyxl.load_workbook('Extracts prix/Price Development Material Ossature Toit.xlsx')
+    sheet_toit = wb_toit.active
+
+    max_col_toit = sheet_toit.max_column
+    dico_toit = {}
+    for i in range(2, max_col_toit+1):
+        dico_toit[sheet_toit.cell(row = 7, column = i).value] = sheet_toit.cell(row = 8, column = i).value
+
+    liste = list(dico_toit.items())
+    dico_a_ajouter = {} 
+    for el in range(1, len(dico_toit.items())) :
+        date, valeur = liste[el]
+        date_avant, valeur_avant = liste[el-1]
+        if int(date[-2:]) - int(date_avant[-2:]) != 1 and int(date[:4]) - int(date_avant[:4]) == 0 :
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])):
+                if k < 10:
+                    dico_a_ajouter[date[:4] + '/0' + str(k)] = valeur_avant
+                else :
+                    dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+        elif int(date[-2:]) - int(date_avant[-2:]) != 11 and int(date[:4]) - int(date_avant[:4]) == 1:
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])+12):
+                if k <= 12:
+                    if k <10:
+                        dico_a_ajouter[date_avant[:4] + '/0' + str(k)] = valeur_avant
+                    else:
+                        dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+                else :
+                    if k%12 < 10:
+                        dico_a_ajouter[date[:4] + '/0' + str(k%12)] = valeur_avant
+                    else :
+                        dico_a_ajouter[date[:4] + '/' + str(k%12)] = valeur_avant
+
+    for el in dico_a_ajouter.items():
+        date, valeur = el
+        dico_toit[date] = valeur
+    
+    print('Importing prices for material : roof skeleton : done')
+    
+    #panel
+    
+    print('Importing prices for material : panel')
+    
+    wb_panel = openpyxl.load_workbook('Extracts prix/Price Development Panel.xlsx')
+    sheet_panel = wb_panel.active
+
+    max_col_panel = sheet_panel.max_column
+    dico_panel = {}
+    for i in range(2, max_col_panel+1):
+        dico_panel[sheet_panel.cell(row = 7, column = i).value] = sheet_panel.cell(row = 8, column = i).value 
+
+    liste = list(dico_panel.items())
+    dico_a_ajouter = {} 
+    for el in range(1, len(dico_panel.items())) :
+        date, valeur = liste[el]
+        date_avant, valeur_avant = liste[el-1]
+        if int(date[-2:]) - int(date_avant[-2:]) != 1 and int(date[:4]) - int(date_avant[:4]) == 0 :
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])):
+                if k < 10:
+                    dico_a_ajouter[date[:4] + '/0' + str(k)] = valeur_avant
+                else :
+                    dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+        elif int(date[-2:]) - int(date_avant[-2:]) != 11 and int(date[:4]) - int(date_avant[:4]) == 1:
+            for k in range(int(date_avant[-2:])+1, int(date[-2:])+12):
+                if k <= 12:
+                    if k <10:
+                        dico_a_ajouter[date_avant[:4] + '/0' + str(k)] = valeur_avant
+                    else:
+                        dico_a_ajouter[date_avant[:4] + '/' + str(k)] = valeur_avant
+                else :
+                    if k%12 < 10:
+                        dico_a_ajouter[date[:4] + '/0' + str(k%12)] = valeur_avant
+                    else :
+                        dico_a_ajouter[date[:4] + '/' + str(k%12)] = valeur_avant
+
+    for el in dico_a_ajouter.items():
+        date, valeur = el
+        dico_panel[date] = valeur
+    
+    print('Importing prices for material : panel : done')
+    
+    #conversion into df and creation of tab_achat
+    print('prices file creation')
+    
+    df_achat_material_fenetre = pd.DataFrame.from_dict(dico_fenetre, orient = 'Index', columns = ['Fenetre [EUR]'])
+    df_achat_material_panel = pd.DataFrame.from_dict(dico_panel, orient = 'Index', columns = ['Panel [EUR]'])
+    df_achat_material_toit = pd.DataFrame.from_dict(dico_toit, orient = 'Index', columns = ['Ossature toit [EUR]'])
+    df_achat_material_garde_corps = pd.DataFrame.from_dict(dico_garde_corps, orient = 'Index', columns = ['Garde corps [EUR]'])
+
+    tab_achat = df_achat_material_fenetre.join(df_achat_material_panel).join(df_achat_material_toit).join(df_achat_material_garde_corps).melt(ignore_index = False).reset_index().rename(columns = {'index':'Date'})
+    tab_achat['Date'] = pd.to_datetime(tab_achat.Date)
+    tab_achat['Date'] = tab_achat['Date'].dt.strftime('%m/%Y')
+    tab_achat = tab_achat.groupby('variable').apply(lambda x: x.ffill().bfill())
+    tab_achat.to_csv(r'csv/tableau_achat.csv', index = True, header = True)
+
+    print('prices file creation : done')
+
+
 
 if __name__ == '__main__':
     main()
