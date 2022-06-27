@@ -6,6 +6,8 @@ def main():
     import io
     import codecs
     import numpy as np
+    import matplotlib.pyplot as plt
+    from pathlib import Path
     print('Starting import : done')
 
 
@@ -330,6 +332,17 @@ def main():
     tab.to_csv(r'csv/tableau_final.csv', index = True, header = True)
     print('Saving data in tableau_final.csv : done')
 
+
+    # Saving plot
+    print('Saving plot in png')
+    for elem in tab['variable'].unique():
+        tab_to_plot = tab[tab['variable'] == elem].plot(x='Date', y='value', legend=False)
+        plt.ylabel(elem)
+        output_file = Path('png/' + elem.replace("/", "-") + '.png')
+        output_file.parent.mkdir(exist_ok=True, parents=True)
+        plt.savefig('png/' + elem.replace("/", "-") + '.png')
+    print('Saving plot in png : done')
+    
 
 if __name__ == '__main__':
     main()
