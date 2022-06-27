@@ -1,5 +1,5 @@
 # Livrable : 
-Script python permettant d’extraire automatiquement et consolider le jeu de données de cours de matières premières stratégiques (acier, bois, pétrole, cuivre, aluminium, matières plastiques et polymères) pour le groupe Algeco ainsi qu’une analyse des corrélations avec les prix d’achats aux fournisseurs.
+Script python permettant d’extraire automatiquement et consolider le jeu de données de cours de matières premières stratégiques (acier, bois, pétrole, cuivre, aluminium et polymères) pour le groupe Modulaire ainsi qu’une analyse des corrélations avec les prix d’achats aux fournisseurs.
 
 # Prélude :
 
@@ -28,7 +28,7 @@ Remarques :
 Sources de données fiables pour l’acquisition du cours de matières premières suivantes :
 -	[x]	Aluminium
 -	[x]	Oil (Brent)
--	[x] 	Steel (Coils & Beams)
+-	[x] Steel (Coils & Beams)
 -	[x]	Copper
 -	[ ]	Wood
 -	[ ] … 
@@ -56,3 +56,21 @@ Choix techniques :
 | Mai 2022       |        ...     |      Copper         |
 | ...      |        ...     |     ...        |
 
+- [x] Finalisation du tableau de données et export au format csv
+
+## Phase 4 :
+- [ ] Structuration de l'architecture du repo (github) :
+
+    - Readme.md (document des réalisations)
+    - Script (récuperation des données - consolidation en dataframe - export en csv) :
+        - main.ipynb
+        - utils.py
+    - Result (outputs)
+    - Data (inputs)
+
+- [ ] Etude de corrélations avec les prix d'achats aux fournisseurs (fenêtres, panneaux, toits)
+
+
+choix technique :
+
+- Utilisation de la méthode ccf (librairie statsmodels) pour l'étude des corrélations croisées
