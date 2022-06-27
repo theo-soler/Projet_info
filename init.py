@@ -270,26 +270,16 @@ def main():
     print('Converting values into float : done')
 
 
-    # Fill Nan
-    df_alu_alloy.to_csv (r'csv/Alu_alloy_LME.csv', index = True, header=True)
-    df_taux_de_change.to_csv (r'csv/Taux_echange.csv', index = True, header=True)
-    df_copper.to_csv (r'csv/copper_LME.csv', index = True, header=True)
-    df_fuel_fr.to_csv(r'csv/fuel_fr.csv', index = True, header=True)
-    df_coils.to_csv(r'csv/coils.csv', index = True, header=True)
-    df_beams.to_csv(r'csv/beams.csv', index=True, header = True)
-    df_fuel_all.to_csv(r'csv/beams.csv', index=True, header = True)
-
-
     #cree un fichier csv avec en index les dates et en colonne les cours aux différents moments
-    print('Creating csv for each data')
-    df_alu_alloy.to_csv (r'csv/Alu_alloy_LME.csv', index = True, header=True)
-    df_taux_de_change.to_csv (r'csv/Taux_echange.csv', index = True, header=True)
-    df_copper.to_csv (r'csv/copper_LME.csv', index = True, header=True)
-    df_fuel_fr.to_csv(r'csv/fuel_fr.csv', index = True, header=True)
-    df_coils.to_csv(r'csv/coils.csv', index = True, header=True)
-    df_beams.to_csv(r'csv/beams.csv', index=True, header = True)
-    df_fuel_all.to_csv(r'csv/fuel_all.csv', index=True, header = True)
-    print('Creating csv for each data : done')
+    # print('Creating csv for each data')
+    # df_alu_alloy.to_csv (r'csv/Alu_alloy_LME.csv', index = True, header=True)
+    # df_taux_de_change.to_csv (r'csv/Taux_echange.csv', index = True, header=True)
+    # df_copper.to_csv (r'csv/copper_LME.csv', index = True, header=True)
+    # df_fuel_fr.to_csv(r'csv/fuel_fr.csv', index = True, header=True)
+    # df_coils.to_csv(r'csv/coils.csv', index = True, header=True)
+    # df_beams.to_csv(r'csv/beams.csv', index=True, header = True)
+    # df_fuel_all.to_csv(r'csv/fuel_all.csv', index=True, header = True)
+    # print('Creating csv for each data : done')
 
 
     #on réunit toutes les données
@@ -315,30 +305,31 @@ def main():
     print('Saving data')
     tab_f['Date'] = tab_f.index
     tab_melted = pd.melt(tab_f, id_vars=['Date'])
-    tab_melted.to_csv(r'csv/tableau_final.csv', index = True, header = True)
+    tab_melted.to_csv(r'csv/tableau_brut.csv', index = True, header = True)
     print('Saving data : done')
 
 
     # Tab by month
     print('Gathering data by month')
     tab = tab_melted
-    tab['Year/Month'] = tab["Date"].str[8:10] + "/" + tab["Date"].str[3:5]
-    tab = np.round(tab.groupby(['variable', 'Year/Month'], as_index=False)['value'].mean(), decimals = 2)
+    tab['Date'] = pd.to_datetime(tab['Date'])
+    tab = tab.set_index('Date')
+    tab = np.round(tab.groupby(['variable', pd.Grouper(freq="M")], as_index=True)['value'].mean(), decimals = 2)
+    tab = tab.reset_index()
     print('Gathering data by month : done')
 
 
     # Fill NaN
     print('Filling NaN')
-    tab = tab.fillna(method='bfill')
-    tab = tab.fillna(method='ffill')
+    tab = tab.groupby('variable').apply(lambda x: x.ffill().bfill())
     print('Filling NaN : done')
 
 
     # Saving tab by month
-    print('Saving data in tableau_by_month.csv')
-    tab.to_csv(r'csv/tableau_final_by_month.csv', index = True, header = True)
-    print('Saving data in tableau_by_month.csv : done')
+    print('Saving data in tableau_final.csv')
+    tab.to_csv(r'csv/tableau_final.csv', index = True, header = True)
+    print('Saving data in tableau_final.csv : done')
 
-    
+
 if __name__ == '__main__':
     main()
