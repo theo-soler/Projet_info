@@ -18,11 +18,15 @@ data = pd.read_csv('data_extraite/tableau_final.csv')
 data['Date'] = pd.to_datetime(data.Date)
 data['Date'] = data['Date'].dt.strftime('%m/%Y')
 
+print('analyse de correlation croisée et tracé dans results')
 for el in data.variable.unique():
+    print('analyse pour : ' + el)
     os.makedirs('results/Correlations avec '+ el.replace('/', '_'), exist_ok=True)
     for elt in achat.variable.unique():
         data_el = data[data['variable'] == el]
+        data_el = data_el[data_el['Date'].str[3:].astype(int)>2020]
         data_achat = achat[achat['variable'] == elt]
+        data_achat = data_achat[data_achat['Date'].str[3:].astype(int)>=2020]
         data_el['value']= pd.to_numeric(data_el['value'])
         data_achat['value'] = pd.to_numeric(data_achat['value'])
         data_el_array = data_el['value'].to_numpy()
@@ -34,4 +38,5 @@ for el in data.variable.unique():
         plt.ylabel('coefficient de correlation')
         plt.plot(range(len(correl)), correl)
         plt.savefig("results/Correlations avec " +el.replace('/', '_') + '/' + elt.replace('/', '_') + ".png")
+print('analyse de correlation croisée et tracé dans results : fini')
 
