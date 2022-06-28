@@ -69,11 +69,12 @@ Choix techniques :
 - [ ] Structuration de l'architecture du repo (github) :
 
     - Readme.md (document des réalisations)
-    - Script (récuperation des données - consolidation en dataframe - export en csv) :
-        - main.ipynb
-        - utils.py
-    - Result (outputs)
-    - Data (inputs)
+    - Script (récuperation des données dans init et analyse dans main) :
+        - init.py
+        - main.py
+    - Result (resultat de l'analyse)
+    - Data (extracts fournis)
+    - Data_extraite (données extraites par web_scrapping)
 
 - [ ] Etude de corrélations avec les prix d'achats aux fournisseurs (fenêtres, panneaux, toits)
 
