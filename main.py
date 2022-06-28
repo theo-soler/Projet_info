@@ -1,3 +1,4 @@
+# +
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -6,21 +7,19 @@ import codecs
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
-
+import os
+import statsmodels.api as sm
 
 pd.options.mode.chained_assignment = None  # default='warn'
 
-import statsmodels.api as sm
-
-
-# +
-achat = pd.read_csv('csv/tableau_achat.csv')
-data = pd.read_csv('csv/tableau_final.csv')
+achat = pd.read_csv('data_extraite/tableau_achat.csv')
+data = pd.read_csv('data_extraite/tableau_final.csv')
 
 data['Date'] = pd.to_datetime(data.Date)
 data['Date'] = data['Date'].dt.strftime('%m/%Y')
 
 for el in data.variable.unique():
+    os.makedirs('results/Correlations avec '+ el.replace('/', '_'), exist_ok=True)
     for elt in achat.variable.unique():
         data_el = data[data['variable'] == el]
         data_achat = achat[achat['variable'] == elt]
@@ -34,4 +33,5 @@ for el in data.variable.unique():
         plt.xlabel('lag (month)')
         plt.ylabel('coefficient de correlation')
         plt.plot(range(len(correl)), correl)
-    
+        plt.savefig("results/Correlations avec " +el.replace('/', '_') + '/' + elt.replace('/', '_') + ".png")
+

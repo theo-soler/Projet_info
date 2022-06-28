@@ -33,8 +33,15 @@ Sources de données fiables pour l’acquisition du cours de matières première
 -	[ ]	Wood
 -	[ ] … 
 
-En se basant sur les aspects suivants : 
-Fourni le cours de la matière considérée sur le marché européen, sur une période d’au moins 2 ans avec une actualisation mensuelle.
+Les sites utilisés sont :
+- Boursorama : 
+    - taux de change dollar - euros : https://www.boursorama.com/bourse/devises/cours/historique/3fUSD_EURfromSymbol=USD&toSymbol=EUR&fromLabel=dollar&toLabel=euro
+    - cuivre : https://www.boursorama.com/bourse/indices/cours/7xCAUSD15M/
+    - aluminium alloy : https://www.boursorama.com/bourse/indices/cours/historique/7xAAUSD15M
+- Le site de la banque de St Louis pour le brent : https://fred.stlouisfed.org/series/DCOILBRENTEU#
+- le site du conseil national routier pour le fuel en France : www.cnr.fr/espaces/13/indicateurs/43?noContext=1
+- Pour l'acier, les valeurs proviennent du site MEPS (https://portal.mepsinternational.com/?logout=true) mais n'ayant pas de login, on a utilisé des extracts fournis
+
 
 ## Phase 2 :
 - [x] Script python permettant une acquisition automatique du cours sur les sources précédemment identifiées 

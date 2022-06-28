@@ -107,7 +107,7 @@ def main():
     print('Begin collecting csv for brent')
     URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=off&txtcolor=%23444444&ts=12&tts=12&width=1168&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=DCOILBRENTEU&scale=left&cosd=2017-05-23&coed=2022-05-23&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Daily&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&transformation=lin&vintage_date=2022-05-27&revision_date=2022-05-27&nd=1987-05-20"
     response = requests.get(URL)
-    open("csv/brent_europe.csv", "wb").write(response.content)
+    open("data_extraite/brent_europe.csv", "wb").write(response.content)
     brent_data = response.content.decode('utf8')
 
     #on met en forme le jeu de données (format des valeurs et des dates)
@@ -195,7 +195,7 @@ def main():
 
     # Coils
     print('Begin collecting data for coils')
-    file = codecs.open('html/MEPS-Europe Hot Dipped Galvanised Coil Price Forecast.html')
+    file = codecs.open('Data/data_acier/MEPS-Europe Hot Dipped Galvanised Coil Price Forecast.html')
     r = bytes(file.read(), 'utf-8')
     soup = BeautifulSoup(r, 'html.parser')
     rows_date = soup.select('tr td b')[3:]
@@ -222,7 +222,7 @@ def main():
 
     # Beams
     print('Begin collecting data for beams')
-    file = codecs.open('html/MEPS-Europe Sections & Beams Price Forecast.html')
+    file = codecs.open('Data/data_acier/MEPS-Europe Sections & Beams Price Forecast.html')
     r = bytes(file.read(), 'utf-8')
     soup = BeautifulSoup(r, 'html.parser')
     rows_date = soup.select('tr td b')[3:]
@@ -276,13 +276,13 @@ def main():
 
     #cree un fichier csv avec en index les dates et en colonne les cours aux différents moments
     # print('Creating csv for each data')
-    # df_alu_alloy.to_csv (r'csv/Alu_alloy_LME.csv', index = True, header=True)
-    # df_taux_de_change.to_csv (r'csv/Taux_echange.csv', index = True, header=True)
-    # df_copper.to_csv (r'csv/copper_LME.csv', index = True, header=True)
-    # df_fuel_fr.to_csv(r'csv/fuel_fr.csv', index = True, header=True)
-    # df_coils.to_csv(r'csv/coils.csv', index = True, header=True)
-    # df_beams.to_csv(r'csv/beams.csv', index=True, header = True)
-    # df_fuel_all.to_csv(r'csv/fuel_all.csv', index=True, header = True)
+    # df_alu_alloy.to_csv (r'data_extraite/Alu_alloy_LME.csv', index = True, header=True)
+    # df_taux_de_change.to_csv (r'data_extraite/Taux_echange.csv', index = True, header=True)
+    # df_copper.to_csv (r'data_extraite/copper_LME.csv', index = True, header=True)
+    # df_fuel_fr.to_csv(r'data_extraite/fuel_fr.csv', index = True, header=True)
+    # df_coils.to_csv(r'data_extraite/coils.csv', index = True, header=True)
+    # df_beams.to_csv(r'data_extraite/beams.csv', index=True, header = True)
+    # df_fuel_all.to_csv(r'data_extraite/fuel_all.csv', index=True, header = True)
     # print('Creating csv for each data : done')
 
 
@@ -309,7 +309,7 @@ def main():
     print('Saving data')
     tab_f['Date'] = tab_f.index
     tab_melted = pd.melt(tab_f, id_vars=['Date'])
-    tab_melted.to_csv(r'csv/tableau_brut.csv', index = True, header = True)
+    tab_melted.to_csv(r'data_extraite/tableau_brut.csv', index = True, header = True)
     print('Saving data : done')
 
 
@@ -333,24 +333,24 @@ def main():
     print('Saving data in tableau_final.csv')
     tab['Date'] = pd.to_datetime(tab.Date)
     tab['Date'].dt.strftime('%m/%Y')
-    tab.to_csv(r'csv/tableau_final.csv', index = True, header = True)
+    tab.to_csv(r'data_extraite/tableau_final.csv', index = True, header = True)
     print('Saving data in tableau_final.csv : done')
 
 
     # Saving plot
-    print('Saving plot in png')
+    print('Saving plot in results')
     for elem in tab['variable'].unique():
         tab_to_plot = tab[tab['variable'] == elem].plot(x='Date', y='value', legend=False)
         plt.ylabel(elem)
-        output_file = Path('png/' + elem.replace("/", "-") + '.png')
+        output_file = Path('data_extraite/' + elem.replace("/", "-") + '.png')
         output_file.parent.mkdir(exist_ok=True, parents=True)
-        plt.savefig('png/' + elem.replace("/", "-") + '.png')
-    print('Saving plot in png : done')
+        plt.savefig('data_extraite/' + elem.replace("/", "-") + '.png')
+    print('Saving plot in results : done')
     
     #importing prices
     #fenetres
     print('Importing prices for material : windows')
-    wb_fenetre = openpyxl.load_workbook('Extracts prix/Price Development Material Fenetre.xlsx')
+    wb_fenetre = openpyxl.load_workbook('Data/Extracts prix/Price Development Material Fenetre.xlsx')
     sheet_fenetre = wb_fenetre.active
 
     max_col_fenetre = sheet_fenetre.max_column
@@ -392,7 +392,7 @@ def main():
     #garde corps
     print('Importing prices for material : garde corps')
 
-    wb_garde_corps = openpyxl.load_workbook('Extracts prix/Price Development Material Garde Corps.xlsx')
+    wb_garde_corps = openpyxl.load_workbook('Data/Extracts prix/Price Development Material Garde Corps.xlsx')
     sheet_garde_corps = wb_garde_corps.active
 
     max_col_garde_corps = sheet_garde_corps.max_column
@@ -432,7 +432,7 @@ def main():
     
     #roof
     print('Importing prices for material : roof skeleton')
-    wb_toit = openpyxl.load_workbook('Extracts prix/Price Development Material Ossature Toit.xlsx')
+    wb_toit = openpyxl.load_workbook('Data/Extracts prix/Price Development Material Ossature Toit.xlsx')
     sheet_toit = wb_toit.active
 
     max_col_toit = sheet_toit.max_column
@@ -474,7 +474,7 @@ def main():
     
     print('Importing prices for material : panel')
     
-    wb_panel = openpyxl.load_workbook('Extracts prix/Price Development Panel.xlsx')
+    wb_panel = openpyxl.load_workbook('Data/Extracts prix/Price Development Panel.xlsx')
     sheet_panel = wb_panel.active
 
     max_col_panel = sheet_panel.max_column
@@ -524,11 +524,9 @@ def main():
     tab_achat['Date'] = pd.to_datetime(tab_achat.Date)
     tab_achat['Date'] = tab_achat['Date'].dt.strftime('%m/%Y')
     tab_achat = tab_achat.groupby('variable').apply(lambda x: x.ffill().bfill())
-    tab_achat.to_csv(r'csv/tableau_achat.csv', index = True, header = True)
+    tab_achat.to_csv(r'data_extraite/tableau_achat.csv', index = True, header = True)
 
     print('prices file creation : done')
-
-
 
 if __name__ == '__main__':
     main()
