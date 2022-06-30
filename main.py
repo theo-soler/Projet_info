@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # +
 from bs4 import BeautifulSoup
 import requests
@@ -24,7 +25,7 @@ for el in data.variable.unique():
     os.makedirs('results/Correlations avec '+ el.replace('/', '_'), exist_ok=True)
     for elt in achat.variable.unique():
         data_el = data[data['variable'] == el]
-        data_el = data_el[data_el['Date'].str[3:].astype(int)>2020]
+        data_el = data_el[data_el['Date'].str[3:].astype(int)>=2020]
         data_achat = achat[achat['variable'] == elt]
         data_achat = data_achat[data_achat['Date'].str[3:].astype(int)>=2020]
         data_el['value']= pd.to_numeric(data_el['value'])
