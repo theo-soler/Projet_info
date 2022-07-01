@@ -27,9 +27,9 @@ def main():
     li_url_copper = []
 
     for an in li_annees_voulues:
-        li_url_taux_de_change.append('www.boursorama.com/_formulaire-periode/?symbol=3fUSD_EUR&historic_search%5BstartDate%5D=06/03/'+ str(an) + '&historic_search%5Bduration%5D=1Y&historic_search%5Bperiod%5D=1')
-        li_url_alu_alloy.append('www.boursorama.com/_formulaire-periode/?symbol=7xAAUSD15M&historic_search%5BstartDate%5D=06/03/'+ str(an) + '&historic_search%5Bduration%5D=1Y&historic_search%5Bperiod%5D=1')
-        li_url_copper.append('www.boursorama.com/_formulaire-periode/?symbol=7xCAUSD15M&historic_search%5BstartDate%5D=06/03/'+ str(an) + '&historic_search%5Bduration%5D=1Y&historic_search%5Bperiod%5D=1')
+        li_url_taux_de_change.append('www.boursorama.com/_formulaire-periode/?symbol=3fUSD_EUR&historic_search%5BstartDate%5D=01/01/'+ str(an) + '&historic_search%5Bduration%5D=1Y&historic_search%5Bperiod%5D=1')
+        li_url_alu_alloy.append('www.boursorama.com/_formulaire-periode/?symbol=7xAAUSD15M&historic_search%5BstartDate%5D=01/01/'+ str(an) + '&historic_search%5Bduration%5D=1Y&historic_search%5Bperiod%5D=1')
+        li_url_copper.append('www.boursorama.com/_formulaire-periode/?symbol=7xCAUSD&historic_search%5BstartDate%5D=01/01/'+ str(an) + '&historic_search%5Bduration%5D=1Y&historic_search%5Bperiod%5D=1')
 
     #on cree un dictionnaire pour l'aluminium dont les clés sont les dates et les valeurs du cours à cette date
     data_alu_alloy = {}
@@ -301,6 +301,7 @@ def main():
     print('Converting values into euros')
     tab_f['aluminium (USD)'] = tab_f['aluminium (USD)']*tab_f['USD/EUROS']
     tab_f['Brent (dollar per barrel)'] = tab_f['Brent (dollar per barrel)']*tab_f['USD/EUROS']
+    tab_f['copper'] = tab_f['copper']* tab_f['USD/EUROS']
     tab_f.columns = ['aluminium (EUR)', 'USD/EUROS', 'copper', 'Brent (EUR/barrel)', 'fuel fr EUR/L', 'coils EUR/ton', 'beams EUR/ton', 'fuel all EUR/L']
     print('Converting values into euros : done')
 
