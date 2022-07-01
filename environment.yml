@@ -12,3 +12,5 @@ dependencies:
   - requests
   - time
   - pandas
+  - openpyxl
+  - statsmodels

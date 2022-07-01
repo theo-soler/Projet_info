@@ -316,7 +316,7 @@ def main():
     # Tab by month
     print('Gathering data by month')
     tab = tab_melted
-    tab['Date'] = pd.to_datetime(tab['Date'])
+    tab['Date'] = pd.to_datetime(tab['Date'], format="%d/%m/%Y")
     tab = tab.set_index('Date')
     tab = np.round(tab.groupby(['variable', pd.Grouper(freq="M")], as_index=True)['value'].mean(), decimals = 2)
     tab = tab.reset_index()
