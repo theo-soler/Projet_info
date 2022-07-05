@@ -66,7 +66,7 @@ Choix techniques :
 - [x] Finalisation du tableau de données et export au format csv
 
 ## Phase 4 :
-- [ ] Structuration de l'architecture du repo (github) :
+- [x] Structuration de l'architecture du repo (github) :
 
     - Readme.md (document des réalisations)
     - Script (récuperation des données dans init et analyse dans main) :
@@ -76,8 +76,9 @@ Choix techniques :
     - Data (extracts fournis)
     - Data_extraite (données extraites par web_scrapping)
 
-- [ ] Etude de corrélations avec les prix d'achats aux fournisseurs (fenêtres, panneaux, toits)
+- [x] Etude de corrélations avec les prix d'achats aux fournisseurs (fenêtres, panneaux, toits)
 
+- [x] Etablissement de la licence (GNU general public licence version 3)
 
 choix technique :
 
